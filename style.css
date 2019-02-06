@@ -2,14 +2,13 @@ body {
   padding-bottom: 0rem;
   padding-right: 0rem;
   width: 100%;
-
   color: #5a5a5a;
   background-color: #F6F7F8;
 }
+
 .shadow {
     box-shadow: 0 0 2rem rgba(0,0,0,1);
     background-color: #fff;
-
 }
 
 .carousel {
@@ -19,53 +18,41 @@ body {
   margin-left:1rem;
 
 }
+
 .carousel-caption {
   bottom: 3rem;
   z-index: 10;
 }
+
 .carousel-inner {
  border-radius: 10px;
  border: 1px solid #F6F7F8;
  box-shadow: 0 0 15px rgba(0,0,0,0.5);
-
 }
 
 .carousel-item {
   height: 26rem;
-  
 }
+
 .carousel-item > img {
   position: absolute;
   top: 0;
   left: 0;
   min-width: 100%;
   height: 32rem;
-
-}
-li {
-  border-color: black;
 }
 
-.marketing .col-lg-4 {
-  margin-bottom: 1.5rem;
-  text-align: center;
-}
-.marketing h2 {
-  font-weight: 400;
-}
-.marketing .col-lg-4 p {
-  margin-right: .75rem;
-  margin-left: .75rem;
-}
 .logo {
   margin-top: 4rem;
 }
+
 .logo span {
   font-size: 5.6rem; 
   font-weight: bold; 
   color: #2B2E3B;
   margin-left: 4.5rem;
 }
+
 .logo p {
   font-size: 2rem;
   line-height: 1.1;
@@ -74,19 +61,6 @@ li {
     margin-left: 4.5rem;
 }
 
-
-
-
-.featurette-divider {
-  margin: 5rem 0; 
-}
-
-
-.featurette-heading {
-  font-weight: 300;
-  line-height: 1;
-  letter-spacing: -.05rem;
-}
 .carousel-indicators li {
   background-color: #0164ff;
 }
@@ -97,88 +71,53 @@ h1 {
   margin-left: 2rem;
 
 }
-.features {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-.margin_0 {
-  padding: 0;
-}
-.features p {
-  padding-top: 25px; 
-  font-size: 20px; 
-  width: 100%; 
-  text-align: center;
-}
-.features .col-lg-4 {
-  padding-top: 2rem;
-}
+
 .btn-primary {
   width: 100%;
   margin-bottom: 2rem;
   font-size: 1.6rem;
   background-color: #0164FF;
 }
+
 .related_border {
   margin
   width: 100%; 
   border: solid 2px #CCCCCC; 
   border-radius: 10px; 
   padding: 10px;
-  margin-top: 1rem;
-}
-.roadmap {
-  margin-bottom: 2rem;
-  padding-bottom: 2rem;
-}
+  }
+
 .very_small_round { 
   width: 30px; 
   height: 30px; 
   border-radius: 15px; 
   background: #0164FF;
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
-   }
+}
+
   .very_small_line { 
   height: 48px; 
   width: 4px; 
   background: #0164FF; 
   margin-left: 12px; 
 }
+
 .very_small_round_2 { 
   width: 30px; 
   height: 30px; 
   border-radius: 15px; 
   background: #D6E6FF; 
 }
+
 .very_small_line_2 { 
   height: 48px; 
   width: 4px; 
   background: #D6E6FF; 
   margin-left: 12px; 
 }
-.road {
-  float: left; 
-  padding-right: 15px;
-}
-.roadmap .col-lg-4 {
-  margin-left: 2rem;
-}  
-.small-video {
-  padding-top: 2rem;
-}
-.partners {
-  margin-bottom: 2rem;
-  padding-bottom: 2rem;
 
-}
-.partners a {
-  margin-top:1rem;
 
-}
-.related {
-  padding-left: 3rem;
-  padding-right: 3rem;
-}
+
 .team span {
 font-weight: bold;
 font-size: 2rem;
@@ -201,13 +140,10 @@ text-align: center;
   background: #fff; 
   border-radius: 10px; 
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    padding: 0rem 1rem 1rem 1rem;
-
-
+  padding: 0rem 1rem 1rem 1rem;
 }
 .sub h1 {
   font-size: 32px; 
-  padding: 30px 0 0 30px; 
   font-weight: bold;
 }
 .btn_sub {
@@ -217,15 +153,11 @@ text-align: center;
   background: #0164FF;
   color: white;
   font-size: 30px;
-  margin-top: 1rem;
 }
 .form_sub {
   height: 80px; 
   border-radius: 15px;
-    font-size: 30px;
-}
-.sub p {
-  margin-top:1rem;
+  font-size: 30px;
 }
 footer a span {
   font-weight: bold;
@@ -233,13 +165,9 @@ footer a span {
 }
 a {
   color: #0164FF;
+  font-size:1.5rem;
 }
-.icon_ {
-  margin-top: 3rem;
-}
- i{
-  border-radius: 50%;
-}
+
 label {
   font-size: 2rem;
 }
@@ -259,22 +187,18 @@ label {
   padding-top: 1rem;
   padding-bottom: 1rem;
   margin-top: 1rem;
+  color: black;
 }
-._margin {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.colcolor {
+  background-color: #0164FF;
+  box-shadow: 0 0 2rem rgba(0,0,0,1);
 }
-.team p {
-  width: 100%; 
-  text-align: center;
+.colcolor p {
+  color: #fff;
 }
 
+
 @media (max-width: 980px) {
-.carousel-item {
-  height: 33rem;
-  
-}
 .row {
   padding-left: 1rem;
   padding-right: 1rem;

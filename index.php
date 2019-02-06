@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
   </head>
   <body>
-     <header class="row shadow">
+     <header class="row colcolor">
         <div class="col-lg-6 logo">
               <span>BEEFREE</span>
               <p>A decentralized incentivized<br/>and secured social network.</p>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 col-md-8 mx-auto px-4">
           <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -39,349 +39,290 @@
                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
                  <span class="sr-only">Next</span>
                </a>
-         </div>
-       </div>
+          </div>
+        </div>
      </header>
-     <div class="contaner features shadow">
-     <div class="row">
-      <div class="col-lg-12">
-      <h1>Main features</h1>
-      </div>
-      <div class="col-lg-1"></div>
-      <div class="col-lg-2">
-              
-        <img src=".\img\feat1.png" alt="Circle Image" class="rounded-circle img-fluid _margin">
-        <p>Fully decentralized server less architecture based on (Ethereum) Swarm</p>
-      </div>
-      <div class="col-lg-2">
-        <img src="./img/feat1.png" alt="Circle Image" class="rounded-circle img-fluid _margin">
-        <p>System transparence through the smart contracts integration</p>
-      </div>
-      <div class="col-lg-2">
-        <img src="./img/feat1.png" alt="Circle Image" class="rounded-circle img-fluid _margin">
-        <p>For-profit social network prioritizes and revenues over user experience</p>
-      </div>
-        <div class="col-lg-2">
-        <img src="./img/feat1.png" alt="Circle Image" class="rounded-circle img-fluid _margin">
-        <p>Only you control your own data</p>
-      </div>
-        <div class="col-lg-2">
-        <img src="./img/feat1.png" alt="Circle Image" class="rounded-circle img-fluid _margin">
-        <p>Migrate your datafrom any existing platform by one click</p>
-      </div>
-      <div class="col-lg-1"></div>
-      <div class="col-lg-1"></div>
-      <div class = 'col-lg-4'>
-          <button type="button" class="btn btn-primary prototype ">Try the prototype</button>
-       </div>
-      <div class="col-lg-2"></div>
-      <div class = 'col-lg-4'>
+<!--Fiters-->
+     <div class="contaner-fluid mt-5 shadow">
+       <div class="row  text-center justify-content-around">
+         <div class="col-lg-12">
+           <h1>Main features</h1>
+         </div>
+         <div class="col-lg-2 col-md-4">
+           <img src=".\img\feat1.png" alt="Circle Image" class="rounded-circle img-fluid">
+           <p class="mt-3">Fully decentralized server less architecture based on (Ethereum) Swarm</p>
+         </div>
+         <div class="col-lg-2 col-md-4">
+           <img src="./img/feat1.png" alt="Circle Image" class="rounded-circle img-fluid">
+           <p class="mt-3">System transparence through the smart contracts integration</p>
+         </div>
+         <div class="col-lg-2 col-md-4">
+           <img src="./img/feat1.png" alt="Circle Image" class="rounded-circle img-fluid">
+           <p class="mt-3">For-profit social network prioritizes and revenues over user experience</p>
+         </div>
+         <div class="col-lg-2 col-md-4">
+           <img src="./img/feat1.png" alt="Circle Image" class="rounded-circle img-fluid">
+           <p class="mt-3">Only you control your own data</p>
+         </div>
+         <div class="col-lg-2 col-md-4">
+           <img src="./img/feat1.png" alt="Circle Image" class="rounded-circle img-fluid">
+           <p class="mt-3">Migrate your datafrom any existing platform by one click</p>
+         </div>
+        <div class = 'col-lg-4'>
+          <button type="button" class="btn btn-primary prototype mw-50">Try the prototype</button>
+        </div>
+        <div class = 'col-lg-4'>
           <button type="button" class="btn btn-primary">Read our whitepaper</button>
-      </div>
-      <div class="col-lg-1"></div>
+        </div>
      </div>
    </div>
-
-
-
-
-
-     <div class="contaner roadmap shadow">
-      <div class="row">
-     <div class="col-lg-1"></div>   
-        <div class="col-lg-3">
-          <h1>Our roadmap</h1>
-
-                            <div>
-                                <div class = "road">
-                                    <div class = 'very_small_round'></div>
-                                    <div class = 'very_small_line'></div>
-                                </div>
-                                <span>Phase 1 with much longer description</span>
-                                <div>2018 October</div>
-                            </div>
-                            <div style = 'padding-top: 30px;'>
-                                <div class = "road">
-                                    <div class = 'very_small_round'></div>
-                                    <div class = 'very_small_line'></div>
-                                </div>
-                                <span>Phase 2 with much longer description</span>
-                                <div>2018 December</div>
-                            </div>
-                            <div style = 'padding-top: 30px;'>
-                                <div class = "road">
-                                    <div class = 'very_small_round'></div>
-                                    <div class = 'very_small_line_2'></div>
-                                </div>
-                                <span>Phase 3 with much longer description</span>
-                                <div>2019 January</div>
-                            </div>
-                            <div style = 'padding-top: 30px;'>
-                                <div class = "road">
-                                    <div class = 'very_small_round_2'></div>
-                                    <div class = 'very_small_line_2'></div>
-                                </div>
-                                <span>Phase 4 with much longer description</span>
-                                <div>2019 March</div>
-                            </div>
-                            <div style = 'padding-top: 30px;'>
-                                <div class = "road">
-                                    <div class = 'very_small_round_2'></div>
-                                    <div class = 'very_small_line_2'></div>
-                                </div>
-                                <div style = 'padding-left: 40px;'>
-                                    <span>Phase 5 with much longer description</span>
-                                    <div>2019 May</div>
-                                </div>
-                            </div>
-                            <div style = 'padding-top: 30px;'>
-                                <div class = "road">
-                                    <div class = 'very_small_round_2'></div>
-                                    <div class = 'very_small_line_2'></div>
-                                </div>
-                                <div style = 'padding-left: 40px;'>
-                                    <span>Phase 6 with much longer description</span>
-                                    <div>2019 Jule</div>
-                                </div>
-                            </div>
-                            <div style = 'padding-top: 30px;'>
-                                <div class = "road">
-                                    <div class = 'very_small_round_2'></div>
-                                    <div class = 'very_small_line_2'></div>
-                                </div>
-                                <div style = 'padding-left: 40px;'>
-                                    <span>Phase 7 with much longer description</span>
-                                    <div>2019 September</div>
-                                </div>
-                            </div>
-                            <div style = 'padding-top: 30px;'>
-                                <div class="road">
-                                    <div class = 'very_small_round_2'></div>
-                                    <div class = 'very_small_line_2'></div>
-                                </div>
-                                <div style = 'padding-left: 40px;'>
-                                    <span>Phase 8 with much longer description</span>
-                                    <div>2019 October</div>
-                                </div>
-                            </div>
-                            <div style = 'padding-top: 30px;'>
-                                <div style = 'width: 30px; height: 30px; border-radius: 15px; background: #D6E6FF; float: left; padding-right: 15px;'></div>
-                                <div style = 'padding-left: 40px;'>
-                                    <span>Phase 9 with much longer description</span>
-                                    <div>2019 December</div>
-                                </div>
-                            </div>
-
-                      </div>
-        <div class="col-lg-1"></div>
+<!--Roadmap-->
+     <div class="contaner-fluid shadow">
+       <div class="row mt-5 justify-content-center">
+        <div class="col-lg-5">
+          <h1 class="text-center">Our roadmap</h1>
+          <div class="row">
+              <div class = "road col-lg-2 col-md-2 col-sm-2 justify-content-end">
+                <div class = 'very_small_round'></div>
+                <div class = 'very_small_line'></div>
+              </div>
+              <div class = "road col-lg-10 col-md-10 col-sm-10">
+              <span>Phase 1 with much longer description<br>2018 November</span>
+              </div>
+          </div>
+          <div class="row">
+              <div class = "road col-lg-2 col-md-2 col-sm-2">
+                <div class = 'very_small_round'></div>
+                <div class = 'very_small_line'></div>
+              </div>
+              <div class = "road col-lg-10 col-md-10 col-sm-10">
+              <span>Phase 2 with much longer description<br>2018 December</span>
+              </div>
+          </div>
+          <div class="row">
+              <div class = "road col-lg-2 col-md-2 col-sm-2">
+                <div class = 'very_small_round'></div>
+                <div class = 'very_small_line'></div>
+              </div>
+              <div class = "road col-lg-10 col-md-10 col-sm-10">
+              <span>Phase 3 with much longer description<br>2019 January</span>
+              </div>
+          </div>
+          <div class="row">
+              <div class = "road col-lg-2 col-md-2 col-sm-2">
+                <div class = 'very_small_round_2'></div>
+                <div class = 'very_small_line_2'></div>
+              </div>
+              <div class = "road col-lg-10 col-md-10 col-sm-10">
+              <span>Phase 4 with much longer description<br>2019 March</span>
+              </div>
+          </div>
+          <div class="row">
+              <div class = "road col-lg-2 col-md-2 col-sm-2">
+                <div class = 'very_small_round_2'></div>
+                <div class = 'very_small_line_2'></div>
+              </div>
+              <div class = "road col-lg-10 col-md-10 col-sm-10">
+              <span>Phase 5 with much longer description<br>2019 May</span>
+              </div>
+          </div>
+          <div class="row">
+              <div class = "road col-lg-2 col-md-2 col-sm-2">
+                <div class = 'very_small_round_2'></div>
+                <div class = 'very_small_line_2'></div>
+              </div>
+              <div class = "road col-lg-10 col-md-10 col-sm-10">
+              <span>Phase 6 with much longer description<br>2019 Jule</span>
+              </div>
+          </div>
+          <div class="row">
+              <div class = "road col-lg-2 col-md-2 col-sm-2">
+                <div class = 'very_small_round_2'></div>
+                <div class = 'very_small_line_2'></div>
+              </div>
+              <div class = "road col-lg-10 col-md-10 col-sm-10">
+              <span>Phase 7 with much longer description<br>2019 September</span>
+              </div>
+          </div>
+          <div class="row">
+              <div class = "road col-lg-2 col-md-2 col-sm-2">
+                <div class = 'very_small_round_2'></div>
+                <div class = 'very_small_line_2'></div>
+              </div>
+              <div class = "road col-lg-10 col-md-10 col-sm-10">
+              <span>Phase 8 with much longer description<br>2019 October</span>
+              </div>
+          </div>
+          <div class="row">
+              <div class = "road col-lg-2 col-md-2 col-sm-2">
+                <div class = 'very_small_round_2'></div>
+              </div>
+              <div class = "road col-lg-10 col-md-10 col-sm-10">
+              <span>Phase 9 with much longer description<br>2019 December</span>
+              </div>
+          </div>
+        </div>
         <div class="col-lg-6">
-          <h1>Learn more about the project</h1>
-
+          <h1 class="text-center">Learn more about the project</h1>
         <div class="embed-responsive embed-responsive-16by9 shadow">
           <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
         </div>
-       <div>
         <div class="row">
-          <div class="col-md-6 small-video">
+          <div class="col-lg-6 col-md-6 small-video mt-5">
             <div class="embed-responsive embed-responsive-16by9 shadow">
-          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
-        </div>
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+            </div>
           </div>
-          <div class="col-md-6 small-video">
+          <div class="col-lg-6 col-md-6 small-video mt-5 mb-3">
             <div class="embed-responsive embed-responsive-16by9 shadow">
-          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
-        </div>
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+            </div>
           </div>
-          </div>
         </div>
+        </div>
+       </div>
       </div>
-        <div class="col-lg-1"></div>
-      </div>
-     </div>
-     <div class="contaner shadow partners">
-       <div class="row">
+      <!--Partners-->
+     <div class="contaner-fluid shadow">
+       <div class="row mt-5 text-center justify-content-center">
          <div class="col-lg-12">
           <h1>Our partners</h1>
          </div>
-         <div class="col-lg-2"></div>
-         <div class="col-lg-3">
-           <a href="https://swarm-guide.readthedocs.io/en/latest/"><img src="./img/swarm.png" alt="Circle Image" width="50%" class="_margin"></a>
+         <div class="col-lg-3 col-md-3">
+           <a href="https://swarm-guide.readthedocs.io/en/latest/"><img src="./img/swarm.png" alt="Circle Image" width="50%" class="mb-3"></a>
          </div>
-         <div class="col-lg-3">
-          <a href="https://swarm-guide.readthedocs.io/en/latest/"><img src="./img/swarm.png" alt="Circle Image" width="50%" class="_margin"></a>
+         <div class="col-lg-3 col-md-3">
+          <a href="https://swarm-guide.readthedocs.io/en/latest/"><img src="./img/swarm.png" alt="Circle Image" width="50%" class="mb-3"></a>
          </div>
-         <div class="col-lg-3">
-          <a href="https://swarm-guide.readthedocs.io/en/latest/"><img src="./img/swarm.png" alt="Circle Image" width="50%" class="_margin"></a>
+         <div class="col-lg-3 col-md-3">
+          <a href="https://swarm-guide.readthedocs.io/en/latest/"><img src="./img/swarm.png" alt="Circle Image" width="50%" class="mb-3"></a>
          </div>
-         <div class="col-lg-1"></div>
-
        </div>
      </div>
-
-
-
-
-
-
-
-     <div class="contaner shadow roadmap">
-     <div class="row related">
-      <div class="col-lg-12">
-      <h1>Related projects</h1>
-     </div>
-
-      <div class="col-lg-3">
-        <div class="related_border">
-        <h2>ABCD project</h2>
-        <span>Lorem ipsum dolor sit amet,
-              consectetur adipiscing elit.
-              Vivamus nec sapien sed sem
-              molestie eleifend nec a eros.
-              </span><br/>
-        <a href="#">Learn more...</a>      
+     <!--RELATED-->
+     <div class="contaner-fluid shadow">
+       <div class="row mt-5 text-center justify-content-around">
+        <div class="col-lg-12">
+         <h1>Related projects</h1>
+        </div>
+       <div class="col-lg-3 col-md-6 pl-5 pr-5 mb-2">
+         <div class="related_border">
+           <h2>ABCD project</h2>
+           <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec sapien sed sem molestie eleifend nec a eros.</span><br/>
+           <a href="#">Learn more...</a>      
+         </div>
+      </div>
+      <div class="col-lg-3 col-md-6  pl-5 pr-5 mb-2">
+         <div class="related_border">
+           <h2>EFGH project</h2>
+           <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec sapien sed sem molestie eleifend nec a eros.</span><br/>
+           <a href="#">Learn more...</a>      
+         </div>
+      </div>
+      <div class="col-lg-3 col-md-6  pl-5 pr-5 mb-2">
+         <div class="related_border">
+           <h2>IJKL project</h2>
+           <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec sapien sed sem molestie eleifend nec a eros.</span><br/>
+           <a href="#">Learn more...</a>      
+         </div>
+      </div>
+      <div class="col-lg-3 col-md-6  pl-5 pr-5 mb-2">
+         <div class="related_border">
+           <h2>MNO project</h2>
+           <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec sapien sed sem molestie eleifend nec a eros.</span><br/>
+           <a href="#">Learn more...</a>      
+         </div>
+      </div>
         </div>
       </div>
-      <div class="col-lg-3">
-        <div class="related_border">
-        <h2>EFGH project</h2>
-        <span>Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit.
-            Vivamus nec sapien sed sem
-            molestie eleifend nec a eros.
-          </span><br/>
-        <a href="#">Learn more...</a>
-        </div>            
-      </div>
-      <div class="col-lg-3">
-        <div class="related_border">
-        <h2>IJKL project</h2>
-        <span>Lorem ipsum dolor sit amet,
-              consectetur adipiscing elit.
-              Vivamus nec sapien sed sem
-              molestie eleifend nec a eros.
-        </span><br/>
-        <a href="#">Learn more...</a>
-        </div>        
-      </div>            
-      <div class="col-lg-3">
-        <div class="related_border">
-        <h2>IJKL project</h2>
-        <span>Lorem ipsum dolor sit amet,
-              consectetur adipiscing elit.
-              Vivamus nec sapien sed sem
-              molestie eleifend nec a eros.
-        </span><br/>
-        <a href="#">Learn more...</a>
-        </div>        
-      </div>
-
-      </div>
-    </div>
-
-    <div class="contaner shadow team roadmap">
-      <div class="row related">
+<!--TEAM-->
+    <div class="contaner-fluid shadow">
+      <div class="row text-center mt-5 justify-content-center">
         <div class="col-lg-12">
           <h1>Meet the team</h1>
         </div>
-        <div class="col-lg-2">
-          <img src="./img/avatar.jpg" alt="Circle Image" class="rounded-circle img-fluid _margin">
+        <div class="col-lg-2 col-md-3">
+          <img src="./img/avatar.jpg" alt="Circle Image" class="rounded-circle img-fluid">
         </div>
-          <div class="col-lg-2">
+        <div class="col-lg-2 col-md-3">
             <h3>Winston Churchill</h3>
             <span>Project title</span>
-            <p>Fusce placerat velit nec porta luctus. Proin erat
-            dui, mollis ac faucibus sit amet, imperdiet sed
-                 mauris.</p>
-          </div>
-           <div class="col-lg-2">
-          <img src="./img/avatar.jpg" alt="Circle Image" class="rounded-circle img-fluid _margin">
+            <p>Fusce placerat velit nec porta luctus. Proin erat dui, mollis ac faucibus sit amet, imperdiet sed mauris.</p>
         </div>
-          <div class="col-lg-2">
-            <h3>Winston Churchill</h3>
-            <span>Project title</span><br>
-            <p>Fusce placerat velit nec porta luctus. Proin erat
-            dui, mollis ac faucibus sit amet, imperdiet sed
-                 mauris.</p>
-          </div>
-           <div class="col-lg-2">
-          <img src="./img/avatar.jpg" alt="Circle Image" class="rounded-circle img-fluid _margin">
+        <div class="col-lg-2 col-md-3">
+          <img src="./img/avatar.jpg" alt="Circle Image" class="rounded-circle img-fluid">
         </div>
-          <div class="col-lg-2">
+        <div class="col-lg-2 col-md-3">
             <h3>Winston Churchill</h3>
-            <span>Project title</span><br>
-            <p>Fusce placerat velit nec porta luctus. Proin erat
-            dui, mollis ac faucibus sit amet, imperdiet sed
-                 mauris.</p>
-          </div>
-           <div class="col-lg-2">
-          <img src="./img/avatar.jpg" alt="Circle Image" class="rounded-circle img-fluid _margin">
+            <span>Project title</span>
+            <p>Fusce placerat velit nec porta luctus. Proin erat dui, mollis ac faucibus sit amet, imperdiet sed mauris.</p>
         </div>
-          <div class="col-lg-2">
-            <h3>Winston Churchill</h3>
-            <span>Project title</span><br>
-            <p>Fusce placerat velit nec porta luctus. Proin erat
-            dui, mollis ac faucibus sit amet, imperdiet sed
-                 mauris.</p>
-          </div>
-           <div class="col-lg-2">
-          <img src="./img/avatar.jpg" alt="Circle Image" class="rounded-circle img-fluid _margin">
+        <div class="col-lg-2 col-md-3">
+          <img src="./img/avatar.jpg" alt="Circle Image" class="rounded-circle img-fluid">
         </div>
-          <div class="col-lg-2">
+        <div class="col-lg-2 col-md-3">
             <h3>Winston Churchill</h3>
-            <span>Project title</span><br>
-            <p>Fusce placerat velit nec porta luctus. Proin erat
-            dui, mollis ac faucibus sit amet, imperdiet sed
-                 mauris.</p>
-          </div>
-           <div class="col-lg-2">
-          <img src="./img/avatar.jpg" alt="Circle Image" class="rounded-circle img-fluid _margin">
+            <span>Project title</span>
+            <p>Fusce placerat velit nec porta luctus. Proin erat dui, mollis ac faucibus sit amet, imperdiet sed mauris.</p>
         </div>
-          <div class="col-lg-2">
+        <div class="col-lg-2 col-md-3">
+          <img src="./img/avatar.jpg" alt="Circle Image" class="rounded-circle img-fluid">
+        </div>
+        <div class="col-lg-2 col-md-3">
             <h3>Winston Churchill</h3>
-            <span>Project title</span><br>
-            <a>Fusce placerat velit nec porta luctus. Proin erat
-            dui, mollis ac faucibus sit amet, imperdiet sed
-                 mauris.</a>
-          </div>
+            <span>Project title</span>
+            <p>Fusce placerat velit nec porta luctus. Proin erat dui, mollis ac faucibus sit amet, imperdiet sed mauris.</p>
+        </div>
+        <div class="col-lg-2 col-md-3">
+          <img src="./img/avatar.jpg" alt="Circle Image" class="rounded-circle img-fluid">
+        </div>
+        <div class="col-lg-2 col-md-3">
+            <h3>Winston Churchill</h3>
+            <span>Project title</span>
+            <p>Fusce placerat velit nec porta luctus. Proin erat dui, mollis ac faucibus sit amet, imperdiet sed mauris.</p>
+        </div>
+        <div class="col-lg-2 col-md-3">
+          <img src="./img/avatar.jpg" alt="Circle Image" class="rounded-circle img-fluid">
+        </div>
+        <div class="col-lg-2 col-md-3">
+            <h3>Winston Churchill</h3>
+            <span>Project title</span>
+            <p>Fusce placerat velit nec porta luctus. Proin erat dui, mollis ac faucibus sit amet, imperdiet sed mauris.</p>
+        </div>
       </div>
     </div>
-    <div class="contaner roadmap">
-      <div class="row">
-         <div class = 'col-lg-1'></div>
-                        <div class = 'col-lg-10'>
-                            <div  class = "sub">
-                                <h1>Can’t wait? Subscribe for updates</h1>
-                                <div class="row">
-                                <div class = 'col-lg-8'>
-                                <input type = 'text' class = 'form-control form_sub'>
-                                </div>
-                                <div class = 'col-lg-3'>
-                                <button type="button" class="btn btn-primary btn_sub">Subscribe</button>
-                                </div>
-                                </div>
-                                <p>
-                                    GDPR Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elementum lectus urna, sit amet condimentum dolor dapibus eu. Integer justo sem, placerat et tincidunt sit amet, fringilla vitae nisl.
-                                    Sed efficitur aliquet purus non porttitor. Maecenas vehicula nibh a bibendum interdum. Sed velit urna, sodales vitae lectus non, iaculis hendrerit lorem. Duis suscipit massa eu dictum pellentesque.
-                                </p>
-                            </div>
-                        </div>
-                        <div class = 'col-lg-1'></div>
-                  
+    <!--SUBSCRIBR-->
+    <div class="contaner mt-5">
+      <div class="row text-center justify-content-center">
+        <div class = 'col-lg-10'>
+          <div  class = "sub pt-2">
+            <h1 class="">Can’t wait? Subscribe for updates</h1>
+              <div class="row justify-content-center">
+                <div class = 'col-lg-8 col-md-7'>
+                  <input type = 'text' class = 'form-control form_sub mb-2'>
+                </div>
+                <div class = 'col-lg-3 col-md-3'>
+                  <button type="button" class="btn btn-primary btn_sub">Subscribe</button>
+                </div>
+              </div>
+              <p>
+                GDPR Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elementum lectus urna, sit amet condimentum dolor dapibus eu. Integer justo sem, placerat et tincidunt sit amet, fringilla vitae nisl.
+                Sed efficitur aliquet purus non porttitor. Maecenas vehicula nibh a bibendum interdum. Sed velit urna, sodales vitae lectus non, iaculis hendrerit lorem. Duis suscipit massa eu dictum pellentesque.
+              </p>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="contaner shadow">
-      <footer class="row">
-        
-        <div class="col-lg-4">
+
+    <div class="contaner-fluid shadow">
+      <div class="row mt-5 justify-content-center">
+        <div class="col-lg-4 col-md-4">
           <h1>Contact us</h1>
-        </div>
-        <div class="col-lg-8">
-          </div>
-        <div class="col-lg-1"></div>
-              <div class = 'col-lg-3'>
+          <div class="row justify-content-center">
+              <div class = 'col-lg-8'>
                     <a href="https://beefree.me"><span>beefree.me</span></a><br>
                     <a href="https://mail.google.com"><span>contactus@beefree.me</span></a>
-                   <div class = " row icon_ _margin">   
+                   <div class = "mt-5">   
                         <a href="#" class="btn btn-just-icon btn-link btn-twitter">
                           <i class="fa fa-twitter"></i>
                         </a>
@@ -394,40 +335,34 @@
                         <a href="#" class="btn btn-just-icon btn-link btn-instagram">
                           <i class="fa fa-instagram"></i>
                         </a>
-                        </div>
-                            </div>
-                            <div class = 'col-lg-7' style = 'border-left: solid 3px #0164FF;'>
-                              <form>
-                              <div class="row">
-                                        <div class = 'col-lg-4'>
-                                            <label>Your name:</label>
-                                            <div><input class = 'form-control' type = 'text'></div>
-                                            <label>Your email:</label>
-                                            <div><input class = 'form-control' type = 'text'></div>
-                                        </div>
-                                        <div class = 'col-lg-6'>
-                                            <label>Your message:</label>
-                                            <div>
-                                                <textarea class = 'form-control' style = 'height: 105px; resize: none;'></textarea>
-                                            </div>
-                                        </div>
-                                        <div class = 'col-lg-2'>
-                                            <input class = 'submit btn_' type = 'submit' value = '✔'>
-                                        </div>
-                                    </div>
-                                    </form>
-                             
-                            </div>
-                            <div class = 'col-lg-1'></div>
+                    </div>
+              </div>
+            </div>
+          </div>
+          <div class = 'col-lg-7 col-md-7' style = 'border-left: solid 3px #0164FF;'>
+            <h1>Write us</h1>
+              <div class="row justify-content-center">
+                  <div class = 'col-lg-4 col-md-5'>
+                      <label>Your name:</label>
+                        <input class = 'form-control' type = 'text'>
+                        <label>Your email:</label>
+                        <input class = 'form-control' type = 'text'>
+                  </div>
+                  <div class = 'col-lg-6 col-md-7'>
+                    <label>Your message:</label>
+                    <textarea class = 'form-control' style = 'height: 105px; resize: none;'></textarea>
+                  </div>
+                  <div class = 'col-lg-2'>
+                    <button class = 'submit btn_' type = 'submit'><i class="fa fa-check"></i></button>
+                  </div>
+              </div>
+           </div>
 
                         
-      </footer>
-      <div class = 'row foot'>
-        <div class = 'col-lg-1'></div>
-        <div class = 'col-lg-5' style = 'font-size: 22px; color: black;'>Made with love by BEE FREE team</div>
-        <div class = 'col-lg-4'></div>
-        <div class = 'col-lg-1' style = 'font-size: 22px;'>2018</div>
-        <div class = 'col-lg-1'></div>
+      </div>
+      <div class = 'row foot justify-content-between px-3 text-center'>
+        <div class = 'col-lg-5'><span>Made with love by BEE FREE team</span></div>
+        <div class = 'col-lg-1'><span>2018</span></div>
       </div>
     </div>
   
