@@ -8,12 +8,14 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
   </head>
   <body>
-     <header class="row colcolor">
-        <div class="col-lg-6 logo">
+
+    <div class="contaner-fluid">
+     <div class="row colcolor">
+        <div class="col-lg-6 col-md-12 logo">
               <span>BEEFREE</span>
               <p>A decentralized incentivized<br/>and secured social network.</p>
         </div>
-        <div class="col-lg-6 col-md-8 mx-auto px-4">
+        <div class="col-lg-6 col-md-12 mx-auto px">
           <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -41,30 +43,31 @@
                </a>
           </div>
         </div>
-     </header>
+     </div>
+   </div>
 <!--Fiters-->
-     <div class="contaner-fluid mt-5 shadow">
+     <div class="contaner-fluid mt-5 shadow fiters">
        <div class="row  text-center justify-content-around">
          <div class="col-lg-12">
            <h1>Main features</h1>
          </div>
-         <div class="col-lg-2 col-md-4">
+         <div class="col-lg-2 col-md-12">
            <img src=".\img\feat1.png" alt="Circle Image" class="rounded-circle img-fluid">
            <p class="mt-3">Fully decentralized server less architecture based on (Ethereum) Swarm</p>
          </div>
-         <div class="col-lg-2 col-md-4">
+         <div class="col-lg-2 col-md-12">
            <img src="./img/feat1.png" alt="Circle Image" class="rounded-circle img-fluid">
            <p class="mt-3">System transparence through the smart contracts integration</p>
          </div>
-         <div class="col-lg-2 col-md-4">
+         <div class="col-lg-2 col-md-12">
            <img src="./img/feat1.png" alt="Circle Image" class="rounded-circle img-fluid">
            <p class="mt-3">For-profit social network prioritizes and revenues over user experience</p>
          </div>
-         <div class="col-lg-2 col-md-4">
+         <div class="col-lg-2 col-md-12">
            <img src="./img/feat1.png" alt="Circle Image" class="rounded-circle img-fluid">
            <p class="mt-3">Only you control your own data</p>
          </div>
-         <div class="col-lg-2 col-md-4">
+         <div class="col-lg-2 col-md-12">
            <img src="./img/feat1.png" alt="Circle Image" class="rounded-circle img-fluid">
            <p class="mt-3">Migrate your datafrom any existing platform by one click</p>
          </div>
@@ -79,7 +82,7 @@
 <!--Roadmap-->
      <div class="contaner-fluid shadow">
        <div class="row mt-5 justify-content-center">
-        <div class="col-lg-5">
+        <div class="col-lg-5 col-md-12">
           <h1 class="text-center">Our roadmap</h1>
           <div class="row">
               <div class = "road col-lg-2 col-md-2 col-sm-2 justify-content-end">
@@ -188,13 +191,13 @@
          <div class="col-lg-12">
           <h1>Our partners</h1>
          </div>
-         <div class="col-lg-3 col-md-3">
+         <div class="col-lg-3 col-md-12">
            <a href="https://swarm-guide.readthedocs.io/en/latest/"><img src="./img/swarm.png" alt="Circle Image" width="50%" class="mb-3"></a>
          </div>
-         <div class="col-lg-3 col-md-3">
+         <div class="col-lg-3 col-md-12">
           <a href="https://swarm-guide.readthedocs.io/en/latest/"><img src="./img/swarm.png" alt="Circle Image" width="50%" class="mb-3"></a>
          </div>
-         <div class="col-lg-3 col-md-3">
+         <div class="col-lg-3 col-md-12">
           <a href="https://swarm-guide.readthedocs.io/en/latest/"><img src="./img/swarm.png" alt="Circle Image" width="50%" class="mb-3"></a>
          </div>
        </div>
@@ -205,28 +208,28 @@
         <div class="col-lg-12">
          <h1>Related projects</h1>
         </div>
-       <div class="col-lg-3 col-md-6 pl-5 pr-5 mb-2">
+       <div class="col-lg-3 col-md-12 pl-5 pr-5 mb-2">
          <div class="related_border">
            <h2>ABCD project</h2>
            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec sapien sed sem molestie eleifend nec a eros.</span><br/>
            <a href="#">Learn more...</a>      
          </div>
       </div>
-      <div class="col-lg-3 col-md-6  pl-5 pr-5 mb-2">
+      <div class="col-lg-3 col-md-12  pl-5 pr-5 mb-2">
          <div class="related_border">
            <h2>EFGH project</h2>
            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec sapien sed sem molestie eleifend nec a eros.</span><br/>
            <a href="#">Learn more...</a>      
          </div>
       </div>
-      <div class="col-lg-3 col-md-6  pl-5 pr-5 mb-2">
+      <div class="col-lg-3 col-md-12  pl-5 pr-5 mb-2">
          <div class="related_border">
            <h2>IJKL project</h2>
            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec sapien sed sem molestie eleifend nec a eros.</span><br/>
            <a href="#">Learn more...</a>      
          </div>
       </div>
-      <div class="col-lg-3 col-md-6  pl-5 pr-5 mb-2">
+      <div class="col-lg-3 col-md-12  pl-5 pr-5 mb-2">
          <div class="related_border">
            <h2>MNO project</h2>
            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec sapien sed sem molestie eleifend nec a eros.</span><br/>
@@ -241,50 +244,50 @@
         <div class="col-lg-12">
           <h1>Meet the team</h1>
         </div>
-        <div class="col-lg-2 col-md-3">
+        <div class="col-lg-2 col-md-6">
           <img src="./img/avatar.jpg" alt="Circle Image" class="rounded-circle img-fluid">
         </div>
-        <div class="col-lg-2 col-md-3">
+        <div class="col-lg-2 col-md-6">
             <h3>Winston Churchill</h3>
             <span>Project title</span>
             <p>Fusce placerat velit nec porta luctus. Proin erat dui, mollis ac faucibus sit amet, imperdiet sed mauris.</p>
         </div>
-        <div class="col-lg-2 col-md-3">
+        <div class="col-lg-2 col-md-6">
           <img src="./img/avatar.jpg" alt="Circle Image" class="rounded-circle img-fluid">
         </div>
-        <div class="col-lg-2 col-md-3">
+        <div class="col-lg-2 col-md-6">
             <h3>Winston Churchill</h3>
             <span>Project title</span>
             <p>Fusce placerat velit nec porta luctus. Proin erat dui, mollis ac faucibus sit amet, imperdiet sed mauris.</p>
         </div>
-        <div class="col-lg-2 col-md-3">
+        <div class="col-lg-2 col-md-6">
           <img src="./img/avatar.jpg" alt="Circle Image" class="rounded-circle img-fluid">
         </div>
-        <div class="col-lg-2 col-md-3">
+        <div class="col-lg-2 col-md-6">
             <h3>Winston Churchill</h3>
             <span>Project title</span>
             <p>Fusce placerat velit nec porta luctus. Proin erat dui, mollis ac faucibus sit amet, imperdiet sed mauris.</p>
         </div>
-        <div class="col-lg-2 col-md-3">
+        <div class="col-lg-2 col-md-6">
           <img src="./img/avatar.jpg" alt="Circle Image" class="rounded-circle img-fluid">
         </div>
-        <div class="col-lg-2 col-md-3">
+        <div class="col-lg-2 col-md-6">
             <h3>Winston Churchill</h3>
             <span>Project title</span>
             <p>Fusce placerat velit nec porta luctus. Proin erat dui, mollis ac faucibus sit amet, imperdiet sed mauris.</p>
         </div>
-        <div class="col-lg-2 col-md-3">
+        <div class="col-lg-2 col-md-6">
           <img src="./img/avatar.jpg" alt="Circle Image" class="rounded-circle img-fluid">
         </div>
-        <div class="col-lg-2 col-md-3">
+        <div class="col-lg-2 col-md-6">
             <h3>Winston Churchill</h3>
             <span>Project title</span>
             <p>Fusce placerat velit nec porta luctus. Proin erat dui, mollis ac faucibus sit amet, imperdiet sed mauris.</p>
         </div>
-        <div class="col-lg-2 col-md-3">
+        <div class="col-lg-2 col-md-6">
           <img src="./img/avatar.jpg" alt="Circle Image" class="rounded-circle img-fluid">
         </div>
-        <div class="col-lg-2 col-md-3">
+        <div class="col-lg-2 col-md-6">
             <h3>Winston Churchill</h3>
             <span>Project title</span>
             <p>Fusce placerat velit nec porta luctus. Proin erat dui, mollis ac faucibus sit amet, imperdiet sed mauris.</p>
@@ -296,12 +299,12 @@
       <div class="row text-center justify-content-center">
         <div class = 'col-lg-10'>
           <div  class = "sub pt-2">
-            <h1 class="">Can’t wait? Subscribe for updates</h1>
+            <h1>Can’t wait? Subscribe for updates</h1>
               <div class="row justify-content-center">
-                <div class = 'col-lg-8 col-md-7'>
+                <div class = 'col-lg-8 col-md-12'>
                   <input type = 'text' class = 'form-control form_sub mb-2'>
                 </div>
-                <div class = 'col-lg-3 col-md-3'>
+                <div class = 'col-lg-3 col-md-12'>
                   <button type="button" class="btn btn-primary btn_sub">Subscribe</button>
                 </div>
               </div>
@@ -316,11 +319,11 @@
 
     <div class="contaner-fluid shadow">
       <div class="row mt-5 justify-content-center">
-        <div class="col-lg-4 col-md-4">
+        <div class="col-lg-4 col-md-12">
           <h1>Contact us</h1>
           <div class="row justify-content-center">
               <div class = 'col-lg-8'>
-                    <a href="https://beefree.me"><span>beefree.me</span></a><br>
+                    <span>mail to:</span><br>
                     <a href="https://mail.google.com"><span>contactus@beefree.me</span></a>
                    <div class = "mt-5">   
                         <a href="#" class="btn btn-just-icon btn-link btn-twitter">
@@ -339,27 +342,35 @@
               </div>
             </div>
           </div>
-          <div class = 'col-lg-7 col-md-7' style = 'border-left: solid 3px #0164FF;'>
+          <div class = 'col-lg-7 col-md-12'>
             <h1>Write us</h1>
+        <form>
               <div class="row justify-content-center">
-                  <div class = 'col-lg-4 col-md-5'>
+                
+                  <!-- Hidden Required Fields -->
+                  <input type="hidden" name="project_name" value="Site Name">
+                  <input type="hidden" name="admin_email" value="admin@mail.com">
+                  <input type="hidden" name="form_subject" value="Form Subject">
+                  <!-- END Hidden Required Fields -->
+
+                  <div class = 'col-lg-4 col-md-12'>
+
                       <label>Your name:</label>
                         <input class = 'form-control' type = 'text'>
                         <label>Your email:</label>
                         <input class = 'form-control' type = 'text'>
                   </div>
-                  <div class = 'col-lg-6 col-md-7'>
+                  <div class = 'col-lg-6 col-md-12'>
                     <label>Your message:</label>
-                    <textarea class = 'form-control' style = 'height: 105px; resize: none;'></textarea>
+                    <input type="text" name="" class = 'form-control' style = 'height: 105px; resize: none;'></input>
                   </div>
-                  <div class = 'col-lg-2'>
-                    <button class = 'submit btn_' type = 'submit'><i class="fa fa-check"></i></button>
+                  <div class = 'col-lg-2 col-md-12 px-6'>
+                    <button class = 'btn_' type = 'submit'><i class="fa fa-check"></i></button>
                   </div>
+                  </div>
+                </form>
+                 </div>
               </div>
-           </div>
-
-                        
-      </div>
       <div class = 'row foot justify-content-between px-3 text-center'>
         <div class = 'col-lg-5'><span>Made with love by BEE FREE team</span></div>
         <div class = 'col-lg-1'><span>2018</span></div>
@@ -372,6 +383,7 @@
  
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script> 
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  <script src="script.js"></script> 
   </body>
   </html>

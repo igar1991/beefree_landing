@@ -1,9 +1,15 @@
+
 body {
   padding-bottom: 0rem;
   padding-right: 0rem;
+  margin-left: 0rem;
   width: 100%;
   color: #5a5a5a;
   background-color: #F6F7F8;
+}
+.row {
+  margin-left:0px;
+  margin-right: 0px;
 }
 
 .shadow {
@@ -14,8 +20,8 @@ body {
 .carousel {
   margin-bottom: 4rem;
   margin-top: 4rem;
-  margin-right:1rem;
-  margin-left:1rem;
+  margin-right:rem;
+  margin-left:rem;
 
 }
 
@@ -96,7 +102,7 @@ h1 {
 }
 
   .very_small_line { 
-  height: 48px; 
+  height: 70px; 
   width: 4px; 
   background: #0164FF; 
   margin-left: 12px; 
@@ -110,7 +116,7 @@ h1 {
 }
 
 .very_small_line_2 { 
-  height: 48px; 
+  height: 70px; 
   width: 4px; 
   background: #D6E6FF; 
   margin-left: 12px; 
@@ -199,11 +205,32 @@ label {
 
 
 @media (max-width: 980px) {
+  html {
+    font-size: 2rem;
+  }
 .row {
   padding-left: 1rem;
   padding-right: 1rem;
 
 }
-  
+.contaner-fluid {
+  font-size: 2rem;
 }
+.sub h1 {
+  font-size:2rem;
+}
+.btn_ {
+   height: 160px;
+   width: 160px;
+   border-radius: 50%;
+   margin-left:10rem;
+}
+.very_small_line_2 { 
+  height: 8rem; 
+  }
+  .very_small_line { 
+  height: 8rem;
+  } 
+}
+
 
