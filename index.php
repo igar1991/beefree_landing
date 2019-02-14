@@ -24,13 +24,13 @@
             </ol>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="img/1.png" width="100%" height="100%" />
+                <img src="img/1.png" class = "object-fit_contain" width="100%" />
               </div>
               <div class="carousel-item">
-                <img src="img/2.png" width="100%" height="100%" />
+                <img src="img/2.png" class = "object-fit_contain" />
               </div>
               <div class="carousel-item">
-                <img src="img/3.png" width="100%" height="100%" />
+                <img src="img/3.png" class = "object-fit_contain" />
               </div>
             </div>
                <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
@@ -81,7 +81,7 @@
    </div>
 <!--Roadmap-->
      <div class="contaner-fluid shadow">
-       <div class="row mt-5 justify-content-center">
+       <div class="row mt-5 justify-content-center pb-5">
         <div class="col-lg-5 col-md-12">
           <h1 class="text-center">Our roadmap</h1>
           <div class="row">
@@ -187,7 +187,7 @@
       </div>
       <!--Partners-->
      <div class="contaner-fluid shadow">
-       <div class="row mt-5 text-center justify-content-center">
+       <div class="row mt-5 text-center justify-content-center pb-5">
          <div class="col-lg-12">
           <h1>Our partners</h1>
          </div>
@@ -204,7 +204,7 @@
      </div>
      <!--RELATED-->
      <div class="contaner-fluid shadow">
-       <div class="row mt-5 text-center justify-content-around">
+       <div class="row mt-5 text-center justify-content-around pb-5">
         <div class="col-lg-12">
          <h1>Related projects</h1>
         </div>
@@ -240,7 +240,7 @@
       </div>
 <!--TEAM-->
     <div class="contaner-fluid shadow">
-      <div class="row text-center mt-5 justify-content-center">
+      <div class="row text-center mt-5 justify-content-center pb-5">
         <div class="col-lg-12">
           <h1>Meet the team</h1>
         </div>
@@ -323,8 +323,7 @@
           <h1>Contact us</h1>
           <div class="row justify-content-center">
               <div class = 'col-lg-8'>
-                    <span>mail to:</span><br>
-                    <a href="https://mail.google.com"><span>contactus@beefree.me</span></a>
+                    <span><a href="mailto:contactus@beefree.me">contactus@beefree.me</a></span>
                    <div class = "mt-5">   
                         <a href="#" class="btn btn-just-icon btn-link btn-twitter">
                           <i class="fa fa-twitter"></i>
@@ -381,7 +380,7 @@
   
 
  
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
   <script src="script.js"></script> 
