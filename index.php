@@ -10,7 +10,7 @@
   <body>
 
     <div class="contaner-fluid">
-     <div class="row colcolor">
+     <div class="row shadow">
         <div class="col-lg-6 col-md-12 logo">
               <span>BEEFREE</span>
               <p>A decentralized incentivized<br/>and secured social network.</p>
@@ -321,60 +321,60 @@
       <div class="row mt-5 justify-content-center">
         <div class="col-lg-4 col-md-12">
           <h1>Contact us</h1>
-          <div class="row justify-content-center">
-              <div class = 'col-lg-8'>
+          <div class="row justify-content-center pl-3 bord">
+              <div class = 'col-lg-12'>
                     <span><a href="mailto:contactus@beefree.me">contactus@beefree.me</a></span>
-                   <div class = "mt-5">   
-                        <a href="#" class="btn btn-just-icon btn-link btn-twitter">
-                          <i class="fa fa-twitter"></i>
-                        </a>
-                        <a href="#" class="btn btn-just-icon btn-link btn-facebook">
-                          <i class="fa fa-facebook-square"></i>
-                        </a>
-                        <a href="#" class="btn btn-just-icon btn-link btn-google">
-                          <i class="fa fa-google-plus"></i>
-                        </a>
-                        <a href="#" class="btn btn-just-icon btn-link btn-instagram">
-                          <i class="fa fa-instagram"></i>
-                        </a>
-                    </div>
+                <div class = "mt-5">   
+                    <ul class="nav">
+                    <li class="nav-item"><a href="" class="nav-link pl-0"><i class="fa fa-facebook fa-lg"></i></a></li>
+                    <li class="nav-item"><a href="" class="nav-link"><i class="fa fa-twitter fa-lg"></i></a></li>
+                    <li class="nav-item"><a href="" class="nav-link"><i class="fa fa-github fa-lg"></i></a></li>
+                    <li class="nav-item"><a href="" class="nav-link"><i class="fa fa-instagram fa-lg"></i></a></li>
+                    </ul>
+                    <br>
+                </div>
               </div>
             </div>
           </div>
-          <div class = 'col-lg-7 col-md-12'>
+          <div class = 'col-lg-6 col-md-12'>
             <h1>Write us</h1>
-        <form>
-              <div class="row justify-content-center">
-                
+            <form>
+              <div class="row justify-content-start">
+              
                   <!-- Hidden Required Fields -->
                   <input type="hidden" name="project_name" value="Site Name">
-                  <input type="hidden" name="admin_email" value="admin@mail.com">
+                  <input type="hidden" name="admin_email" value="igor.shadurin@gmail.com">
                   <input type="hidden" name="form_subject" value="Form Subject">
                   <!-- END Hidden Required Fields -->
-
-                  <div class = 'col-lg-4 col-md-12'>
-
-                      <label>Your name:</label>
-                        <input class = 'form-control' type = 'text'>
-                        <label>Your email:</label>
-                        <input class = 'form-control' type = 'text'>
-                  </div>
-                  <div class = 'col-lg-6 col-md-12'>
-                    <label>Your message:</label>
-                    <input type="text" name="" class = 'form-control' style = 'height: 105px; resize: none;'></input>
-                  </div>
-                  <div class = 'col-lg-2 col-md-12 px-6'>
-                    <button class = 'btn_' type = 'submit'><i class="fa fa-check"></i></button>
-                  </div>
-                  </div>
-                </form>
-                 </div>
-              </div>
+                <div class="col-lg-10">
+                  <fieldset class="form-group">
+                        <input type="name" class="form-control" id="exampleInputEmail1" placeholder="Enter name">
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <textarea class="form-control" id="exampleMessage" placeholder="Message"></textarea>
+                    </fieldset>
+                    <fieldset class="form-group text-xs-right">
+                        <button type="button" class="btn btn-primary">Send</button>
+                    </fieldset>
+                </div>
+            </div>
+            </form>
+          </div>
+         </div>
       <div class = 'row foot justify-content-between px-3 text-center'>
         <div class = 'col-lg-5'><span>Made with love by BEE FREE team</span></div>
         <div class = 'col-lg-1'><span>2018</span></div>
       </div>
     </div>
+    <div class="container">
+    <div class="page-header pt-2">
+    </div>
+</div>
+
+
   
 
   

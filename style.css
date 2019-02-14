@@ -155,19 +155,7 @@ text-align: center;
   font-size: 32px; 
   font-weight: bold;
 }
-.btn_sub {
-  height: 80px; 
-  border-radius: 15px; 
-  width: 100%; 
-  background: #0164FF;
-  color: white;
-  font-size: 30px;
-}
-.form_sub {
-  height: 80px; 
-  border-radius: 15px;
-  font-size: 30px;
-}
+
 footer a span {
   font-weight: bold;
    font-size: 22px;
@@ -191,19 +179,19 @@ label {
   background-color: #D6E6FF;
 }
 .foot {
-  background: #0164FF;
+  background: #fff;
   font-size: 25px;
   padding-top: 1rem;
   padding-bottom: 1rem;
   margin-top: 1rem;
   color: black;
+  box-shadow: 0 0 0.2rem rgba(0,0,0,5);
+
 }
-.colcolor {
-  background-color: #0164FF;
-  box-shadow: 0 0 2rem rgba(0,0,0,1);
-}
-.colcolor p {
-  color: #fff;
+
+
+.bord {
+  border-right: 2px solid #0164FF
 }
 
 
@@ -215,6 +203,9 @@ label {
   padding-left: 1rem;
   padding-right: 1rem;
 
+}
+.bord {
+  border-right: none;
 }
 .contaner-fluid {
   font-size: 2rem;
