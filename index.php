@@ -24,13 +24,13 @@
             </ol>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="img/1.png" class = "object-fit_contain" width="100%" />
+                <img src="img/<?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['slider_1'];?>" class = "object-fit_contain" width="100%" />
               </div>
               <div class="carousel-item">
-                <img src="img/2.png" class = "object-fit_contain" />
+                <img src="img/<?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['slider_2'];?>" class = "object-fit_contain" />
               </div>
               <div class="carousel-item">
-                <img src="img/3.png" class = "object-fit_contain" />
+                <img src="img/<?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['slider_3'];?>" class = "object-fit_contain" />
               </div>
             </div>
                <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
@@ -52,24 +52,24 @@
            <h1>Main features</h1>
          </div>
          <div class="col-lg-2 col-md-12">
-           <img src=".\img\feat1.png" alt="Circle Image" class="rounded-circle img-fluid">
-           <p class="mt-3">Fully decentralized server less architecture based on (Ethereum) Swarm</p>
+           <img src=".\img\<?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['main_features_img_1'];?>" alt="Circle Image" class="rounded-circle img-fluid">
+           <p class="mt-3"><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['main_features_1'];?></p>
          </div>
          <div class="col-lg-2 col-md-12">
-           <img src="./img/feat1.png" alt="Circle Image" class="rounded-circle img-fluid">
-           <p class="mt-3">System transparence through the smart contracts integration</p>
+           <img src="./img/<?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['main_features_img_2'];?>" alt="Circle Image" class="rounded-circle img-fluid">
+           <p class="mt-3"><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['main_features_2'];?></p>
          </div>
          <div class="col-lg-2 col-md-12">
-           <img src="./img/feat1.png" alt="Circle Image" class="rounded-circle img-fluid">
-           <p class="mt-3">For-profit social network prioritizes and revenues over user experience</p>
+           <img src="./img/<?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['main_features_img_3'];?>" alt="Circle Image" class="rounded-circle img-fluid">
+           <p class="mt-3"><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['main_features_3'];?></p>
          </div>
          <div class="col-lg-2 col-md-12">
-           <img src="./img/feat1.png" alt="Circle Image" class="rounded-circle img-fluid">
-           <p class="mt-3">Only you control your own data</p>
+           <img src="./img/<?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['main_features_img_4'];?>" alt="Circle Image" class="rounded-circle img-fluid">
+           <p class="mt-3"><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['main_features_4'];?></p>
          </div>
          <div class="col-lg-2 col-md-12">
-           <img src="./img/feat1.png" alt="Circle Image" class="rounded-circle img-fluid">
-           <p class="mt-3">Migrate your datafrom any existing platform by one click</p>
+           <img src="./img/<?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['main_features_img_5'];?>" alt="Circle Image" class="rounded-circle img-fluid">
+           <p class="mt-3"><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['main_features_5'];?></p>
          </div>
         <div class = 'col-lg-4'>
           <button type="button" class="btn btn-primary prototype mw-50">Try the prototype</button>
@@ -90,7 +90,7 @@
                 <div class = 'very_small_line'></div>
               </div>
               <div class = "road col-lg-10 col-md-10 col-sm-10">
-              <span>Phase 1 with much longer description<br>2018 November</span>
+              <span><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['roadmap_1'];?></span>
               </div>
           </div>
           <div class="row">
@@ -99,7 +99,7 @@
                 <div class = 'very_small_line'></div>
               </div>
               <div class = "road col-lg-10 col-md-10 col-sm-10">
-              <span>Phase 2 with much longer description<br>2018 December</span>
+              <span><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['roadmap_2'];?></span>
               </div>
           </div>
           <div class="row">
@@ -108,7 +108,7 @@
                 <div class = 'very_small_line'></div>
               </div>
               <div class = "road col-lg-10 col-md-10 col-sm-10">
-              <span>Phase 3 with much longer description<br>2019 January</span>
+              <span><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['roadmap_3'];?></span>
               </div>
           </div>
           <div class="row">
@@ -117,7 +117,7 @@
                 <div class = 'very_small_line_2'></div>
               </div>
               <div class = "road col-lg-10 col-md-10 col-sm-10">
-              <span>Phase 4 with much longer description<br>2019 March</span>
+              <span><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['roadmap_4'];?></span>
               </div>
           </div>
           <div class="row">
@@ -126,7 +126,7 @@
                 <div class = 'very_small_line_2'></div>
               </div>
               <div class = "road col-lg-10 col-md-10 col-sm-10">
-              <span>Phase 5 with much longer description<br>2019 May</span>
+              <span><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['roadmap_5'];?></span>
               </div>
           </div>
           <div class="row">
@@ -135,7 +135,7 @@
                 <div class = 'very_small_line_2'></div>
               </div>
               <div class = "road col-lg-10 col-md-10 col-sm-10">
-              <span>Phase 6 with much longer description<br>2019 Jule</span>
+              <span><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['roadmap_6'];?></span>
               </div>
           </div>
           <div class="row">
@@ -144,7 +144,7 @@
                 <div class = 'very_small_line_2'></div>
               </div>
               <div class = "road col-lg-10 col-md-10 col-sm-10">
-              <span>Phase 7 with much longer description<br>2019 September</span>
+              <span><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['roadmap_7'];?></span>
               </div>
           </div>
           <div class="row">
@@ -153,7 +153,7 @@
                 <div class = 'very_small_line_2'></div>
               </div>
               <div class = "road col-lg-10 col-md-10 col-sm-10">
-              <span>Phase 8 with much longer description<br>2019 October</span>
+              <span><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['roadmap_8'];?></span>
               </div>
           </div>
           <div class="row">
@@ -161,24 +161,24 @@
                 <div class = 'very_small_round_2'></div>
               </div>
               <div class = "road col-lg-10 col-md-10 col-sm-10">
-              <span>Phase 9 with much longer description<br>2019 December</span>
+              <span><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['roadmap_9'];?></span>
               </div>
           </div>
         </div>
         <div class="col-lg-6">
           <h1 class="text-center">Learn more about the project</h1>
         <div class="embed-responsive embed-responsive-16by9 shadow">
-          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+          <iframe class="embed-responsive-item" src="<?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['video_1'];?>" allowfullscreen></iframe>
         </div>
         <div class="row">
           <div class="col-lg-6 col-md-6 small-video mt-5">
             <div class="embed-responsive embed-responsive-16by9 shadow">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+            <iframe class="embed-responsive-item" src="<?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['video_1'];?>" allowfullscreen></iframe>
             </div>
           </div>
           <div class="col-lg-6 col-md-6 small-video mt-5 mb-3">
             <div class="embed-responsive embed-responsive-16by9 shadow">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+            <iframe class="embed-responsive-item" src="<?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['video_1'];?>" allowfullscreen></iframe>
             </div>
           </div>
         </div>
@@ -192,13 +192,13 @@
           <h1>Our partners</h1>
          </div>
          <div class="col-lg-3 col-md-12">
-           <a href="https://swarm-guide.readthedocs.io/en/latest/"><img src="./img/swarm.png" alt="Circle Image" width="50%" class="mb-3"></a>
+           <a href="<?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['partners_logo_URL_1'];?>"><img src="./img/<?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['partners_logo_img_1'];?>" alt="Circle Image" width="50%" class="mb-3"></a>
          </div>
          <div class="col-lg-3 col-md-12">
-          <a href="https://swarm-guide.readthedocs.io/en/latest/"><img src="./img/swarm.png" alt="Circle Image" width="50%" class="mb-3"></a>
+          <a href="<?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['partners_logo_URL_2'];?>"><img src="./img/<?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['partners_logo_img_2'];?>" alt="Circle Image" width="50%" class="mb-3"></a>
          </div>
          <div class="col-lg-3 col-md-12">
-          <a href="https://swarm-guide.readthedocs.io/en/latest/"><img src="./img/swarm.png" alt="Circle Image" width="50%" class="mb-3"></a>
+          <a href="<?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['partners_logo_URL_3'];?>"><img src="./img/<?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['partners_logo_img_3'];?>" alt="Circle Image" width="50%" class="mb-3"></a>
          </div>
        </div>
      </div>
@@ -211,28 +211,28 @@
        <div class="col-lg-3 col-md-12 pl-5 pr-5 mb-2">
          <div class="related_border">
            <h2>ABCD project</h2>
-           <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec sapien sed sem molestie eleifend nec a eros.</span><br/>
+           <span><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['realeted_project_1'];?></span><br/>
            <a href="#">Learn more...</a>      
          </div>
       </div>
       <div class="col-lg-3 col-md-12  pl-5 pr-5 mb-2">
          <div class="related_border">
            <h2>EFGH project</h2>
-           <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec sapien sed sem molestie eleifend nec a eros.</span><br/>
+           <span><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['realeted_project_2'];?></span><br/>
            <a href="#">Learn more...</a>      
          </div>
       </div>
       <div class="col-lg-3 col-md-12  pl-5 pr-5 mb-2">
          <div class="related_border">
            <h2>IJKL project</h2>
-           <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec sapien sed sem molestie eleifend nec a eros.</span><br/>
+           <span><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['realeted_project_3'];?></span><br/>
            <a href="#">Learn more...</a>      
          </div>
       </div>
       <div class="col-lg-3 col-md-12  pl-5 pr-5 mb-2">
          <div class="related_border">
            <h2>MNO project</h2>
-           <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec sapien sed sem molestie eleifend nec a eros.</span><br/>
+           <span><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['realeted_project_4'];?></span><br/>
            <a href="#">Learn more...</a>      
          </div>
       </div>
@@ -245,52 +245,52 @@
           <h1>Meet the team</h1>
         </div>
         <div class="col-lg-2 col-md-6">
-          <img src="./img/avatar.jpg" alt="Circle Image" class="rounded-circle img-fluid">
+          <img src="./img/<?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['team_photo_1'];?>" alt="Circle Image" class="rounded-circle img-fluid">
         </div>
         <div class="col-lg-2 col-md-6">
-            <h3>Winston Churchill</h3>
-            <span>Project title</span>
-            <p>Fusce placerat velit nec porta luctus. Proin erat dui, mollis ac faucibus sit amet, imperdiet sed mauris.</p>
+            <h3><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['team_name_1'];?></h3>
+            <span><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['team_title_1'];?></span>
+            <p><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['team_content_1'];?></p>
         </div>
         <div class="col-lg-2 col-md-6">
-          <img src="./img/avatar.jpg" alt="Circle Image" class="rounded-circle img-fluid">
+          <img src="./img/<?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['team_photo_2'];?>" alt="Circle Image" class="rounded-circle img-fluid">
         </div>
         <div class="col-lg-2 col-md-6">
-            <h3>Winston Churchill</h3>
-            <span>Project title</span>
-            <p>Fusce placerat velit nec porta luctus. Proin erat dui, mollis ac faucibus sit amet, imperdiet sed mauris.</p>
+            <h3><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['team_name_2'];?>l</h3>
+            <span><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['team_title_2'];?></span>
+            <p><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['team_content_2'];?></p>
         </div>
         <div class="col-lg-2 col-md-6">
-          <img src="./img/avatar.jpg" alt="Circle Image" class="rounded-circle img-fluid">
+          <img src="./img/<?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['team_photo_3'];?>" alt="Circle Image" class="rounded-circle img-fluid">
         </div>
         <div class="col-lg-2 col-md-6">
-            <h3>Winston Churchill</h3>
-            <span>Project title</span>
-            <p>Fusce placerat velit nec porta luctus. Proin erat dui, mollis ac faucibus sit amet, imperdiet sed mauris.</p>
+            <h3><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['team_name_3'];?></h3>
+            <span><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['team_title_3'];?></span>
+            <p><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['team_content_3'];?></p>
         </div>
         <div class="col-lg-2 col-md-6">
-          <img src="./img/avatar.jpg" alt="Circle Image" class="rounded-circle img-fluid">
+          <img src="./img/<?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['team_photo_4'];?>" alt="Circle Image" class="rounded-circle img-fluid">
         </div>
         <div class="col-lg-2 col-md-6">
-            <h3>Winston Churchill</h3>
-            <span>Project title</span>
-            <p>Fusce placerat velit nec porta luctus. Proin erat dui, mollis ac faucibus sit amet, imperdiet sed mauris.</p>
+            <h3><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['team_name_4'];?></h3>
+            <span><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['team_title_4'];?></span>
+            <p><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['team_content_4'];?></p>
         </div>
         <div class="col-lg-2 col-md-6">
-          <img src="./img/avatar.jpg" alt="Circle Image" class="rounded-circle img-fluid">
+          <img src="./img/<?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['team_photo_5'];?>" alt="Circle Image" class="rounded-circle img-fluid">
         </div>
         <div class="col-lg-2 col-md-6">
-            <h3>Winston Churchill</h3>
-            <span>Project title</span>
-            <p>Fusce placerat velit nec porta luctus. Proin erat dui, mollis ac faucibus sit amet, imperdiet sed mauris.</p>
+            <h3><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['team_name_5'];?></h3>
+            <span><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['team_title_5'];?></span>
+            <p><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['team_content_5'];?></p>
         </div>
         <div class="col-lg-2 col-md-6">
-          <img src="./img/avatar.jpg" alt="Circle Image" class="rounded-circle img-fluid">
+          <img src="./img/<?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['team_photo_6'];?>" alt="Circle Image" class="rounded-circle img-fluid">
         </div>
         <div class="col-lg-2 col-md-6">
-            <h3>Winston Churchill</h3>
-            <span>Project title</span>
-            <p>Fusce placerat velit nec porta luctus. Proin erat dui, mollis ac faucibus sit amet, imperdiet sed mauris.</p>
+            <h3><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['team_name_6'];?></h3>
+            <span><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['team_title_6'];?></span>
+            <p><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['team_content_6'];?></p>
         </div>
       </div>
     </div>
