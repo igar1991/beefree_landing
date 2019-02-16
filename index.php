@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
   </head>
   <body>
-
+<?php $strings=json_decode(file_get_contents('content.txt'),true);?>
     <div class="contaner-fluid">
      <div class="row shadow">
         <div class="col-lg-6 col-md-12 logo">
@@ -24,13 +24,13 @@
             </ol>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="img/<?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['slider_1'];?>" class = "object-fit_contain" width="100%" />
+                <img src="img/<?php echo $strings['slider_1'];?>" class = "object-fit_contain" />
               </div>
               <div class="carousel-item">
-                <img src="img/<?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['slider_2'];?>" class = "object-fit_contain" />
+                <img src="img/<?php echo $strings['slider_2'];?>" class = "object-fit_contain" />
               </div>
               <div class="carousel-item">
-                <img src="img/<?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['slider_3'];?>" class = "object-fit_contain" />
+                <img src="img/<?php echo $strings['slider_3'];?>" class = "object-fit_contain" />
               </div>
             </div>
                <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
@@ -45,6 +45,8 @@
         </div>
      </div>
    </div>
+   
+
 <!--Fiters-->
      <div class="contaner-fluid mt-5 shadow fiters">
        <div class="row  text-center justify-content-around">
@@ -52,24 +54,24 @@
            <h1>Main features</h1>
          </div>
          <div class="col-lg-2 col-md-12">
-           <img src=".\img\<?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['main_features_img_1'];?>" alt="Circle Image" class="rounded-circle img-fluid">
-           <p class="mt-3"><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['main_features_1'];?></p>
+           <img src=".\img\<?php echo $strings['main_features_img_1'];?>" alt="Circle Image" class="rounded-circle img-fluid">
+           <p class="mt-3"><?php echo $strings['main_features_1'];?></p>
          </div>
          <div class="col-lg-2 col-md-12">
-           <img src="./img/<?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['main_features_img_2'];?>" alt="Circle Image" class="rounded-circle img-fluid">
-           <p class="mt-3"><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['main_features_2'];?></p>
+           <img src="./img/<?php echo $strings['main_features_img_2'];?>" alt="Circle Image" class="rounded-circle img-fluid">
+           <p class="mt-3"><?php echo $strings['main_features_2'];?></p>
          </div>
          <div class="col-lg-2 col-md-12">
-           <img src="./img/<?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['main_features_img_3'];?>" alt="Circle Image" class="rounded-circle img-fluid">
-           <p class="mt-3"><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['main_features_3'];?></p>
+           <img src="./img/<?php echo $strings['main_features_img_3'];?>" alt="Circle Image" class="rounded-circle img-fluid">
+           <p class="mt-3"><?php echo $strings['main_features_3'];?></p>
          </div>
          <div class="col-lg-2 col-md-12">
-           <img src="./img/<?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['main_features_img_4'];?>" alt="Circle Image" class="rounded-circle img-fluid">
-           <p class="mt-3"><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['main_features_4'];?></p>
+           <img src="./img/<?php echo $strings['main_features_img_4'];?>" alt="Circle Image" class="rounded-circle img-fluid">
+           <p class="mt-3"><?php echo $strings['main_features_4'];?></p>
          </div>
          <div class="col-lg-2 col-md-12">
-           <img src="./img/<?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['main_features_img_5'];?>" alt="Circle Image" class="rounded-circle img-fluid">
-           <p class="mt-3"><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['main_features_5'];?></p>
+           <img src="./img/<?php echo $strings['main_features_img_5'];?>" alt="Circle Image" class="rounded-circle img-fluid">
+           <p class="mt-3"><?php echo $strings['main_features_5'];?></p>
          </div>
         <div class = 'col-lg-4'>
           <button type="button" class="btn btn-primary prototype mw-50">Try the prototype</button>
@@ -90,7 +92,7 @@
                 <div class = 'very_small_line'></div>
               </div>
               <div class = "road col-lg-10 col-md-10 col-sm-10">
-              <span><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['roadmap_1'];?></span>
+              <span><?php echo $strings['roadmap_1'];?></span>
               </div>
           </div>
           <div class="row">
@@ -99,7 +101,7 @@
                 <div class = 'very_small_line'></div>
               </div>
               <div class = "road col-lg-10 col-md-10 col-sm-10">
-              <span><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['roadmap_2'];?></span>
+              <span><?php echo $strings['roadmap_2'];?></span>
               </div>
           </div>
           <div class="row">
@@ -108,7 +110,7 @@
                 <div class = 'very_small_line'></div>
               </div>
               <div class = "road col-lg-10 col-md-10 col-sm-10">
-              <span><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['roadmap_3'];?></span>
+              <span><?php echo $strings['roadmap_3'];?></span>
               </div>
           </div>
           <div class="row">
@@ -117,7 +119,7 @@
                 <div class = 'very_small_line_2'></div>
               </div>
               <div class = "road col-lg-10 col-md-10 col-sm-10">
-              <span><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['roadmap_4'];?></span>
+              <span><?php echo $strings['roadmap_4'];?></span>
               </div>
           </div>
           <div class="row">
@@ -126,7 +128,7 @@
                 <div class = 'very_small_line_2'></div>
               </div>
               <div class = "road col-lg-10 col-md-10 col-sm-10">
-              <span><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['roadmap_5'];?></span>
+              <span><?php echo $strings['roadmap_5'];?></span>
               </div>
           </div>
           <div class="row">
@@ -135,7 +137,7 @@
                 <div class = 'very_small_line_2'></div>
               </div>
               <div class = "road col-lg-10 col-md-10 col-sm-10">
-              <span><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['roadmap_6'];?></span>
+              <span><?php echo $strings['roadmap_6'];?></span>
               </div>
           </div>
           <div class="row">
@@ -144,7 +146,7 @@
                 <div class = 'very_small_line_2'></div>
               </div>
               <div class = "road col-lg-10 col-md-10 col-sm-10">
-              <span><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['roadmap_7'];?></span>
+              <span><?php echo $strings['roadmap_7'];?></span>
               </div>
           </div>
           <div class="row">
@@ -153,7 +155,7 @@
                 <div class = 'very_small_line_2'></div>
               </div>
               <div class = "road col-lg-10 col-md-10 col-sm-10">
-              <span><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['roadmap_8'];?></span>
+              <span><?php echo $strings['roadmap_8'];?></span>
               </div>
           </div>
           <div class="row">
@@ -161,24 +163,24 @@
                 <div class = 'very_small_round_2'></div>
               </div>
               <div class = "road col-lg-10 col-md-10 col-sm-10">
-              <span><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['roadmap_9'];?></span>
+              <span><?php echo $strings['roadmap_9'];?></span>
               </div>
           </div>
         </div>
         <div class="col-lg-6">
           <h1 class="text-center">Learn more about the project</h1>
         <div class="embed-responsive embed-responsive-16by9 shadow">
-          <iframe class="embed-responsive-item" src="<?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['video_1'];?>" allowfullscreen></iframe>
+          <iframe class="embed-responsive-item" src="<?php echo $strings['video_1'];?>" allowfullscreen></iframe>
         </div>
         <div class="row">
           <div class="col-lg-6 col-md-6 small-video mt-5">
             <div class="embed-responsive embed-responsive-16by9 shadow">
-            <iframe class="embed-responsive-item" src="<?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['video_1'];?>" allowfullscreen></iframe>
+            <iframe class="embed-responsive-item" src="<?php echo $strings['video_1'];?>" allowfullscreen></iframe>
             </div>
           </div>
           <div class="col-lg-6 col-md-6 small-video mt-5 mb-3">
             <div class="embed-responsive embed-responsive-16by9 shadow">
-            <iframe class="embed-responsive-item" src="<?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['video_1'];?>" allowfullscreen></iframe>
+            <iframe class="embed-responsive-item" src="<?php echo $strings['video_1'];?>" allowfullscreen></iframe>
             </div>
           </div>
         </div>
@@ -192,13 +194,13 @@
           <h1>Our partners</h1>
          </div>
          <div class="col-lg-3 col-md-12">
-           <a href="<?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['partners_logo_URL_1'];?>"><img src="./img/<?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['partners_logo_img_1'];?>" alt="Circle Image" width="50%" class="mb-3"></a>
+           <a href="<?php echo $strings['partners_logo_URL_1'];?>"><img src="./img/<?php echo $strings['partners_logo_img_1'];?>" alt="Circle Image" width="50%" class="mb-3"></a>
          </div>
          <div class="col-lg-3 col-md-12">
-          <a href="<?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['partners_logo_URL_2'];?>"><img src="./img/<?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['partners_logo_img_2'];?>" alt="Circle Image" width="50%" class="mb-3"></a>
+          <a href="<?php echo $strings['partners_logo_URL_2'];?>"><img src="./img/<?php echo $strings['partners_logo_img_2'];?>" alt="Circle Image" width="50%" class="mb-3"></a>
          </div>
          <div class="col-lg-3 col-md-12">
-          <a href="<?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['partners_logo_URL_3'];?>"><img src="./img/<?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['partners_logo_img_3'];?>" alt="Circle Image" width="50%" class="mb-3"></a>
+          <a href="<?php echo $strings['partners_logo_URL_3'];?>"><img src="./img/<?php echo $strings['partners_logo_img_3'];?>" alt="Circle Image" width="50%" class="mb-3"></a>
          </div>
        </div>
      </div>
@@ -211,28 +213,28 @@
        <div class="col-lg-3 col-md-12 pl-5 pr-5 mb-2">
          <div class="related_border">
            <h2>ABCD project</h2>
-           <span><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['realeted_project_1'];?></span><br/>
+           <span><?php echo $strings['realeted_project_1'];?></span><br/>
            <a href="#">Learn more...</a>      
          </div>
       </div>
       <div class="col-lg-3 col-md-12  pl-5 pr-5 mb-2">
          <div class="related_border">
            <h2>EFGH project</h2>
-           <span><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['realeted_project_2'];?></span><br/>
+           <span><?php echo $strings['realeted_project_2'];?></span><br/>
            <a href="#">Learn more...</a>      
          </div>
       </div>
       <div class="col-lg-3 col-md-12  pl-5 pr-5 mb-2">
          <div class="related_border">
            <h2>IJKL project</h2>
-           <span><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['realeted_project_3'];?></span><br/>
+           <span><?php echo $strings['realeted_project_3'];?></span><br/>
            <a href="#">Learn more...</a>      
          </div>
       </div>
       <div class="col-lg-3 col-md-12  pl-5 pr-5 mb-2">
          <div class="related_border">
            <h2>MNO project</h2>
-           <span><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['realeted_project_4'];?></span><br/>
+           <span><?php echo $strings['realeted_project_4'];?></span><br/>
            <a href="#">Learn more...</a>      
          </div>
       </div>
@@ -245,52 +247,52 @@
           <h1>Meet the team</h1>
         </div>
         <div class="col-lg-2 col-md-6">
-          <img src="./img/<?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['team_photo_1'];?>" alt="Circle Image" class="rounded-circle img-fluid">
+          <img src="./img/<?php echo $strings['team_photo_1'];?>" alt="Circle Image" class="rounded-circle img-fluid">
         </div>
         <div class="col-lg-2 col-md-6">
-            <h3><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['team_name_1'];?></h3>
-            <span><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['team_title_1'];?></span>
-            <p><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['team_content_1'];?></p>
+            <h3><?php echo $strings['team_name_1'];?></h3>
+            <span><?php echo $strings['team_title_1'];?></span>
+            <p><?php echo $strings['team_content_1'];?></p>
         </div>
         <div class="col-lg-2 col-md-6">
-          <img src="./img/<?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['team_photo_2'];?>" alt="Circle Image" class="rounded-circle img-fluid">
+          <img src="./img/<?php echo $strings['team_photo_2'];?>" alt="Circle Image" class="rounded-circle img-fluid">
         </div>
         <div class="col-lg-2 col-md-6">
-            <h3><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['team_name_2'];?>l</h3>
-            <span><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['team_title_2'];?></span>
-            <p><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['team_content_2'];?></p>
+            <h3><?php echo $strings['team_name_2'];?>l</h3>
+            <span><?php echo $strings['team_title_2'];?></span>
+            <p><?php echo $strings['team_content_2'];?></p>
         </div>
         <div class="col-lg-2 col-md-6">
-          <img src="./img/<?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['team_photo_3'];?>" alt="Circle Image" class="rounded-circle img-fluid">
+          <img src="./img/<?php echo $strings['team_photo_3'];?>" alt="Circle Image" class="rounded-circle img-fluid">
         </div>
         <div class="col-lg-2 col-md-6">
-            <h3><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['team_name_3'];?></h3>
-            <span><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['team_title_3'];?></span>
-            <p><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['team_content_3'];?></p>
+            <h3><?php echo $strings['team_name_3'];?></h3>
+            <span><?php echo $strings['team_title_3'];?></span>
+            <p><?php echo $strings['team_content_3'];?></p>
         </div>
         <div class="col-lg-2 col-md-6">
-          <img src="./img/<?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['team_photo_4'];?>" alt="Circle Image" class="rounded-circle img-fluid">
+          <img src="./img/<?php echo $strings['team_photo_4'];?>" alt="Circle Image" class="rounded-circle img-fluid">
         </div>
         <div class="col-lg-2 col-md-6">
-            <h3><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['team_name_4'];?></h3>
-            <span><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['team_title_4'];?></span>
-            <p><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['team_content_4'];?></p>
+            <h3><?php echo $strings['team_name_4'];?></h3>
+            <span><?php echo $strings['team_title_4'];?></span>
+            <p><?php echo $strings['team_content_4'];?></p>
         </div>
         <div class="col-lg-2 col-md-6">
-          <img src="./img/<?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['team_photo_5'];?>" alt="Circle Image" class="rounded-circle img-fluid">
+          <img src="./img/<?php echo $strings['team_photo_5'];?>" alt="Circle Image" class="rounded-circle img-fluid">
         </div>
         <div class="col-lg-2 col-md-6">
-            <h3><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['team_name_5'];?></h3>
-            <span><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['team_title_5'];?></span>
-            <p><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['team_content_5'];?></p>
+            <h3><?php echo $strings['team_name_5'];?></h3>
+            <span><?php echo $strings['team_title_5'];?></span>
+            <p><?php echo $strings['team_content_5'];?></p>
         </div>
         <div class="col-lg-2 col-md-6">
-          <img src="./img/<?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['team_photo_6'];?>" alt="Circle Image" class="rounded-circle img-fluid">
+          <img src="./img/<?php echo $strings['team_photo_6'];?>" alt="Circle Image" class="rounded-circle img-fluid">
         </div>
         <div class="col-lg-2 col-md-6">
-            <h3><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['team_name_6'];?></h3>
-            <span><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['team_title_6'];?></span>
-            <p><?php $strings=json_decode(file_get_contents('content.txt'),true); echo $strings['team_content_6'];?></p>
+            <h3><?php echo $strings['team_name_6'];?></h3>
+            <span><?php echo $strings['team_title_6'];?></span>
+            <p><?php echo $strings['team_content_6'];?></p>
         </div>
       </div>
     </div>
@@ -338,30 +340,25 @@
           </div>
           <div class = 'col-lg-6 col-md-12'>
             <h1>Write us</h1>
-            <form>
+           
               <div class="row justify-content-start">
-              
-                  <!-- Hidden Required Fields -->
-                  <input type="hidden" name="project_name" value="Site Name">
-                  <input type="hidden" name="admin_email" value="igor.shadurin@gmail.com">
-                  <input type="hidden" name="form_subject" value="Form Subject">
-                  <!-- END Hidden Required Fields -->
                 <div class="col-lg-10">
+                  <form id="form">
                   <fieldset class="form-group">
-                        <input type="name" class="form-control" id="exampleInputEmail1" placeholder="Enter name">
+                        <input type="text" name="name" class="form-control" placeholder="Enter name" required>
                     </fieldset>
                     <fieldset class="form-group">
-                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                        <input type="text" name = "email" class="form-control" id="exampleInputEmail1" placeholder="Enter email" required>
                     </fieldset>
                     <fieldset class="form-group">
-                        <textarea class="form-control" id="exampleMessage" placeholder="Message"></textarea>
+                        <textarea type = "text" name = "text" class="form-control" id="exampleMessage" placeholder="Message"></textarea>
                     </fieldset>
                     <fieldset class="form-group text-xs-right">
-                        <button type="button" class="btn btn-primary">Send</button>
+                        <button class="btn btn-primary">Send</button>
                     </fieldset>
+                    </form>
                 </div>
             </div>
-            </form>
           </div>
          </div>
       <div class = 'row foot justify-content-between px-3 text-center'>
@@ -373,16 +370,10 @@
     <div class="page-header pt-2">
     </div>
 </div>
-
-
-  
-
-  
-
- 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="common.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-  <script src="script.js"></script> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   </body>
   </html>
