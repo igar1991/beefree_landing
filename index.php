@@ -17,7 +17,8 @@
      <div class="row shadow">
         <div class="col-lg-6 col-md-12 logo">
               <span>BEEFREE</span>
-              <p>A decentralized incentivized<br/>and secured social network.</p>
+              <p>Take back control<br/>Create your own decentralized incentivized and secured social networks
+<br/></p>
         </div>
         <div class="col-lg-6 col-md-12 mx-auto px">
           <div id="myCarousel" class="carousel slide" data-ride="carousel">

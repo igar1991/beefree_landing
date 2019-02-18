@@ -1,26 +1,26 @@
 {
-"slider_activ": "1.png",
+	"slider_activ": "1.png",
 
-"main_features_img_1": "feat1.png",
-"main_features_1": "Fully decentralized server less architecture based on (Ethereum) Swarm",
-"main_features_img_2": "feat1.png", 
-"main_features_2": "System transparence through the smart contracts integration",
-"main_features_img_3": "feat1.png",
-"main_features_3": "For-profit social network prioritizes and revenues over user experience",
-"main_features_img_4": "feat1.png",
-"main_features_4": "Only you control your own data",
-"main_features_img_5": "feat1.png",
-"main_features_5": "Migrate your datafrom any existing platform by one click",
+	"main_features_img_1": "feat1.png",
+	"main_features_1": "Take back control - Create your own social networks",
+	"main_features_img_2": "feat1.png", 
+	"main_features_2": "System transparence through the smart contracts integration",
+	"main_features_img_3": "feat1.png",
+	"main_features_3": "Fully decentralized server less architecture based on (Ethereum) Swarm",
+	"main_features_img_4": "feat1.png",
+	"main_features_4": "Private and secured communications",
+	"main_features_img_5": "feat1.png",
+	"main_features_5": "Incentive systems for economic self sustainability of the platform",
 
-"roadmap_last": "Phase 9 with much longer description<br>2019 December",
 
-"video_1": "https://www.youtube.com/embed/zpOULjyy-n8?rel=0",
-"video_2": "https://www.youtube.com/embed/zpOULjyy-n8?rel=0",
-"video_3": "https://www.youtube.com/embed/zpOULjyy-n8?rel=0",
+	"roadmap_last": "Token pre sale<br>2020 October",
 
-"realeted_project_1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec sapien sed sem molestie eleifend nec a eros.",
-"realeted_project_2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec sapien sed sem molestie eleifend nec a eros.",
-"realeted_project_3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec sapien sed sem molestie eleifend nec a eros.",
-"realeted_project_4": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec sapien sed sem molestie eleifend nec a eros."
+	"video_1": "https://www.youtube.com/embed/zpOULjyy-n8?rel=0",
+	"video_2": "https://www.youtube.com/embed/zpOULjyy-n8?rel=0",
+	"video_3": "https://www.youtube.com/embed/zpOULjyy-n8?rel=0",
 
+	"realeted_project_1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec sapien sed sem molestie eleifend nec a eros.",
+	"realeted_project_2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec sapien sed sem molestie eleifend nec a eros.",
+	"realeted_project_3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec sapien sed sem molestie eleifend nec a eros.",
+	"realeted_project_4": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec sapien sed sem molestie eleifend nec a eros."
 }
