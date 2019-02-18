@@ -1,7 +1,5 @@
 {
-"slider_1": "1.png",
-"slider_2": "2.png",
-"slider_3": "3.png",
+"slider_activ": "1.png",
 
 "main_features_img_1": "feat1.png",
 "main_features_1": "Fully decentralized server less architecture based on (Ethereum) Swarm",
@@ -14,60 +12,15 @@
 "main_features_img_5": "feat1.png",
 "main_features_5": "Migrate your datafrom any existing platform by one click",
 
-"roadmap_1": "Phase 1 with much longer description<br>2018 November",
-"roadmap_2": "Phase 2 with much longer description<br>2018 January",
-"roadmap_3": "Phase 3 with much longer description<br>2018 December",
-"roadmap_4": "Phase 4 with much longer description<br>2019 March",
-"roadmap_5": "Phase 5 with much longer description<br>2019 May",
-"roadmap_6": "Phase 6 with much longer description<br>2019 Jule",
-"roadmap_7": "Phase 7 with much longer description<br>2019 September",
-"roadmap_8": "Phase 8 with much longer description<br>2019 October",
-"roadmap_9": "Phase 9 with much longer description<br>2019 December",
+"roadmap_last": "Phase 9 with much longer description<br>2019 December",
 
 "video_1": "https://www.youtube.com/embed/zpOULjyy-n8?rel=0",
 "video_2": "https://www.youtube.com/embed/zpOULjyy-n8?rel=0",
 "video_3": "https://www.youtube.com/embed/zpOULjyy-n8?rel=0",
 
-"partners_logo_img_1": "swarm.png",
-"partners_logo_URL_1": "https://swarm-guide.readthedocs.io/en/latest/",
-"partners_logo_img_2": "swarm.png",
-"partners_logo_URL_2": "https://swarm-guide.readthedocs.io/en/latest/",
-"partners_logo_img_3": "swarm.png",
-"partners_logo_URL_3": "https://swarm-guide.readthedocs.io/en/latest/",
-
 "realeted_project_1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec sapien sed sem molestie eleifend nec a eros.",
 "realeted_project_2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec sapien sed sem molestie eleifend nec a eros.",
 "realeted_project_3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec sapien sed sem molestie eleifend nec a eros.",
-"realeted_project_4": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec sapien sed sem molestie eleifend nec a eros.",
-
-"team_photo_1": "avatar.jpg",
-"team_name_1": "Winston Churchill",
-"team_title_1": "Project title",
-"team_content_1": "Fusce placerat velit nec porta luctus. Proin erat dui, mollis ac faucibus sit amet, imperdiet sed mauris.",
-
-"team_photo_2": "avatar.jpg",
-"team_name_2": "Winston Churchill",
-"team_title_2": "Project title",
-"team_content_2": "Fusce placerat velit nec porta luctus. Proin erat dui, mollis ac faucibus sit amet, imperdiet sed mauris.",
-
-"team_photo_3": "avatar.jpg",
-"team_name_3": "Winston Churchill",
-"team_title_3": "Project title",
-"team_content_3": "Fusce placerat velit nec porta luctus. Proin erat dui, mollis ac faucibus sit amet, imperdiet sed mauris.",
-
-"team_photo_4": "avatar.jpg",
-"team_name_4": "Winston Churchill",
-"team_title_4": "Project title",
-"team_content_4": "Fusce placerat velit nec porta luctus. Proin erat dui, mollis ac faucibus sit amet, imperdiet sed mauris.",
-
-"team_photo_5": "avatar.jpg",
-"team_name_5": "Winston Churchill",
-"team_title_5": "Project title",
-"team_content_5": "Fusce placerat velit nec porta luctus. Proin erat dui, mollis ac faucibus sit amet, imperdiet sed mauris.",
-
-"team_photo_6": "avatar.jpg",
-"team_name_6": "Winston Churchill",
-"team_title_6": "Project title",
-"team_content_6": "Fusce placerat velit nec porta luctus. Proin erat dui, mollis ac faucibus sit amet, imperdiet sed mauris."
+"realeted_project_4": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec sapien sed sem molestie eleifend nec a eros."
 
 }

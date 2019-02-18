@@ -1,0 +1,73 @@
+{
+"slider": [
+"2.png",
+"3.png"
+],
+
+"road_map_finishid": [
+"Phase 1 with much longer description<br>2018 November", 
+"Phase 2 with much longer description<br>2018 January", 
+"Phase 3 with much longer description<br>2018 December"
+],
+
+"road_map_future": [
+"Phase 4 with much longer description<br>2019 March", 
+"Phase 5 with much longer description<br>2019 May", 
+"Phase 6 with much longer description<br>2019 Jule", 
+"Phase 7 with much longer description<br>2019 September", 
+"Phase 8 with much longer description<br>2019 October"
+],
+
+
+"our_partners": [
+{
+"img":"swarm.png",
+"URL":"https://swarm-guide.readthedocs.io/en/latest/"}, 
+{
+"img":"swarm.png",
+"URL":"https://swarm-guide.readthedocs.io/en/latest/"},
+{
+"img":"swarm.png",
+"URL":"https://swarm-guide.readthedocs.io/en/latest/"}
+],
+
+
+"TEAM": [
+{
+"photo": "avatar.jpg",
+"name": "Winston Churchill",
+"title": "Project title",
+"content": "Fusce placerat velit nec porta luctus. Proin erat dui, mollis ac faucibus sit amet, imperdiet sed mauris."
+},
+{
+"photo": "avatar.jpg",
+"name": "Winston Churchill",
+"title": "Project title",
+"content": "Fusce placerat velit nec porta luctus. Proin erat dui, mollis ac faucibus sit amet, imperdiet sed mauris."
+},
+{
+"photo": "avatar.jpg",
+"name": "Winston Churchill",
+"title": "Project title",
+"content": "Fusce placerat velit nec porta luctus. Proin erat dui, mollis ac faucibus sit amet, imperdiet sed mauris."
+},
+{
+"photo": "avatar.jpg",
+"name": "Winston Churchill",
+"title": "Project title",
+"content": "Fusce placerat velit nec porta luctus. Proin erat dui, mollis ac faucibus sit amet, imperdiet sed mauris."
+},
+{
+"photo": "avatar.jpg",
+"name": "Winston Churchill",
+"title": "Project title",
+"content": "Fusce placerat velit nec porta luctus. Proin erat dui, mollis ac faucibus sit amet, imperdiet sed mauris."
+},
+{
+"photo": "avatar.jpg",
+"name": "Winston Churchill",
+"title": "Project title",
+"content": "Fusce placerat velit nec porta luctus. Proin erat dui, mollis ac faucibus sit amet, imperdiet sed mauris."
+}
+]
+}

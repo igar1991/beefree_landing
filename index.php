@@ -9,6 +9,10 @@
   </head>
   <body>
 <?php $strings=json_decode(file_get_contents('content.txt'),true);?>
+<?php $str=json_decode(file_get_contents('dinamic.txt'),true);?>
+
+
+
     <div class="contaner-fluid">
      <div class="row shadow">
         <div class="col-lg-6 col-md-12 logo">
@@ -24,14 +28,13 @@
             </ol>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="img/<?php echo $strings['slider_1'];?>" class = "object-fit_contain" />
+                <img src="img/<?php echo $strings['slider_activ'];?>" class = "object-fit_contain" />
               </div>
+              <?php foreach( $str['slider'] as $item): ?>
               <div class="carousel-item">
-                <img src="img/<?php echo $strings['slider_2'];?>" class = "object-fit_contain" />
+                <img src="img/<?php echo $item; ?>" class = "object-fit_contain" />
               </div>
-              <div class="carousel-item">
-                <img src="img/<?php echo $strings['slider_3'];?>" class = "object-fit_contain" />
-              </div>
+              <?php endforeach; ?>
             </div>
                <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -86,84 +89,34 @@
        <div class="row mt-5 justify-content-center pb-5">
         <div class="col-lg-5 col-md-12">
           <h1 class="text-center">Our roadmap</h1>
-          <div class="row">
-              <div class = "road col-lg-2 col-md-2 col-sm-2 justify-content-end">
-                <div class = 'very_small_round'></div>
-                <div class = 'very_small_line'></div>
-              </div>
-              <div class = "road col-lg-10 col-md-10 col-sm-10">
-              <span><?php echo $strings['roadmap_1'];?></span>
-              </div>
-          </div>
+          <?php foreach( $str['road_map_finishid'] as $item): ?>
           <div class="row">
               <div class = "road col-lg-2 col-md-2 col-sm-2">
                 <div class = 'very_small_round'></div>
                 <div class = 'very_small_line'></div>
               </div>
               <div class = "road col-lg-10 col-md-10 col-sm-10">
-              <span><?php echo $strings['roadmap_2'];?></span>
+              <span><?php echo $item; ?></span>
               </div>
           </div>
-          <div class="row">
-              <div class = "road col-lg-2 col-md-2 col-sm-2">
-                <div class = 'very_small_round'></div>
-                <div class = 'very_small_line'></div>
-              </div>
-              <div class = "road col-lg-10 col-md-10 col-sm-10">
-              <span><?php echo $strings['roadmap_3'];?></span>
-              </div>
-          </div>
+          <?php endforeach; ?>
+          <?php foreach( $str['road_map_future'] as $item): ?>
           <div class="row">
               <div class = "road col-lg-2 col-md-2 col-sm-2">
                 <div class = 'very_small_round_2'></div>
                 <div class = 'very_small_line_2'></div>
               </div>
               <div class = "road col-lg-10 col-md-10 col-sm-10">
-              <span><?php echo $strings['roadmap_4'];?></span>
+              <span><?php echo $item; ?></span>
               </div>
           </div>
-          <div class="row">
-              <div class = "road col-lg-2 col-md-2 col-sm-2">
-                <div class = 'very_small_round_2'></div>
-                <div class = 'very_small_line_2'></div>
-              </div>
-              <div class = "road col-lg-10 col-md-10 col-sm-10">
-              <span><?php echo $strings['roadmap_5'];?></span>
-              </div>
-          </div>
-          <div class="row">
-              <div class = "road col-lg-2 col-md-2 col-sm-2">
-                <div class = 'very_small_round_2'></div>
-                <div class = 'very_small_line_2'></div>
-              </div>
-              <div class = "road col-lg-10 col-md-10 col-sm-10">
-              <span><?php echo $strings['roadmap_6'];?></span>
-              </div>
-          </div>
-          <div class="row">
-              <div class = "road col-lg-2 col-md-2 col-sm-2">
-                <div class = 'very_small_round_2'></div>
-                <div class = 'very_small_line_2'></div>
-              </div>
-              <div class = "road col-lg-10 col-md-10 col-sm-10">
-              <span><?php echo $strings['roadmap_7'];?></span>
-              </div>
-          </div>
-          <div class="row">
-              <div class = "road col-lg-2 col-md-2 col-sm-2">
-                <div class = 'very_small_round_2'></div>
-                <div class = 'very_small_line_2'></div>
-              </div>
-              <div class = "road col-lg-10 col-md-10 col-sm-10">
-              <span><?php echo $strings['roadmap_8'];?></span>
-              </div>
-          </div>
+          <?php endforeach; ?>
           <div class="row">
               <div class = "road col-lg-2 col-md-2 col-sm-2">
                 <div class = 'very_small_round_2'></div>
               </div>
               <div class = "road col-lg-10 col-md-10 col-sm-10">
-              <span><?php echo $strings['roadmap_9'];?></span>
+              <span><?php echo $strings['roadmap_last'];?></span>
               </div>
           </div>
         </div>
@@ -193,15 +146,13 @@
          <div class="col-lg-12">
           <h1>Our partners</h1>
          </div>
+         <?php foreach( $str['our_partners'] as $item): ?>
          <div class="col-lg-3 col-md-12">
-           <a href="<?php echo $strings['partners_logo_URL_1'];?>"><img src="./img/<?php echo $strings['partners_logo_img_1'];?>" alt="Circle Image" width="50%" class="mb-3"></a>
+            <a href="<?php echo $item['URL']; ?>"><img src="./img/<?php echo $item['img']; ?>" alt="Circle Image" width="50%" class="mb-3">
+            </a>
          </div>
-         <div class="col-lg-3 col-md-12">
-          <a href="<?php echo $strings['partners_logo_URL_2'];?>"><img src="./img/<?php echo $strings['partners_logo_img_2'];?>" alt="Circle Image" width="50%" class="mb-3"></a>
-         </div>
-         <div class="col-lg-3 col-md-12">
-          <a href="<?php echo $strings['partners_logo_URL_3'];?>"><img src="./img/<?php echo $strings['partners_logo_img_3'];?>" alt="Circle Image" width="50%" class="mb-3"></a>
-         </div>
+         <?php endforeach; ?>
+         
        </div>
      </div>
      <!--RELATED-->
@@ -246,54 +197,17 @@
         <div class="col-lg-12">
           <h1>Meet the team</h1>
         </div>
+        <?php foreach( $str['TEAM'] as $item): ?>
         <div class="col-lg-2 col-md-6">
-          <img src="./img/<?php echo $strings['team_photo_1'];?>" alt="Circle Image" class="rounded-circle img-fluid">
+          <img src="./img/<?php echo $item['photo']; ?>" alt="Circle Image" class="rounded-circle img-fluid">
         </div>
         <div class="col-lg-2 col-md-6">
-            <h3><?php echo $strings['team_name_1'];?></h3>
-            <span><?php echo $strings['team_title_1'];?></span>
-            <p><?php echo $strings['team_content_1'];?></p>
+            <h3><?php echo $item['name']; ?></h3>
+            <span><?php echo $item['title']; ?></span>
+            <p><?php echo $item['content']; ?></p>
         </div>
-        <div class="col-lg-2 col-md-6">
-          <img src="./img/<?php echo $strings['team_photo_2'];?>" alt="Circle Image" class="rounded-circle img-fluid">
-        </div>
-        <div class="col-lg-2 col-md-6">
-            <h3><?php echo $strings['team_name_2'];?>l</h3>
-            <span><?php echo $strings['team_title_2'];?></span>
-            <p><?php echo $strings['team_content_2'];?></p>
-        </div>
-        <div class="col-lg-2 col-md-6">
-          <img src="./img/<?php echo $strings['team_photo_3'];?>" alt="Circle Image" class="rounded-circle img-fluid">
-        </div>
-        <div class="col-lg-2 col-md-6">
-            <h3><?php echo $strings['team_name_3'];?></h3>
-            <span><?php echo $strings['team_title_3'];?></span>
-            <p><?php echo $strings['team_content_3'];?></p>
-        </div>
-        <div class="col-lg-2 col-md-6">
-          <img src="./img/<?php echo $strings['team_photo_4'];?>" alt="Circle Image" class="rounded-circle img-fluid">
-        </div>
-        <div class="col-lg-2 col-md-6">
-            <h3><?php echo $strings['team_name_4'];?></h3>
-            <span><?php echo $strings['team_title_4'];?></span>
-            <p><?php echo $strings['team_content_4'];?></p>
-        </div>
-        <div class="col-lg-2 col-md-6">
-          <img src="./img/<?php echo $strings['team_photo_5'];?>" alt="Circle Image" class="rounded-circle img-fluid">
-        </div>
-        <div class="col-lg-2 col-md-6">
-            <h3><?php echo $strings['team_name_5'];?></h3>
-            <span><?php echo $strings['team_title_5'];?></span>
-            <p><?php echo $strings['team_content_5'];?></p>
-        </div>
-        <div class="col-lg-2 col-md-6">
-          <img src="./img/<?php echo $strings['team_photo_6'];?>" alt="Circle Image" class="rounded-circle img-fluid">
-        </div>
-        <div class="col-lg-2 col-md-6">
-            <h3><?php echo $strings['team_name_6'];?></h3>
-            <span><?php echo $strings['team_title_6'];?></span>
-            <p><?php echo $strings['team_content_6'];?></p>
-        </div>
+        <?php endforeach; ?>
+       
       </div>
     </div>
     <!--SUBSCRIBR-->
